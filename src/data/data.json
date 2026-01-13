@@ -1,0 +1,1311 @@
+{
+  "site": {
+    "phoneText": "0312 285 14 20",
+    "phoneHref": "tel:+903122851420",
+    "email": "info@gnssteknik.com.tr",
+    "address": "Balgat Mahallesi 1418. Sokak No:10 Daire:9/11, 06520 Çankaya / ANKARA",
+    "telText": "0 (312) 285 14 20",
+    "faxText": "0 (312) 285 14 21",
+    "whatsapp": {
+      "text": "WhatsApp",
+      "href": "https://wa.me/905302827888"
+    }
+  },
+
+  "home": {
+    "navbar": {
+      "logoText": "GNSS Kirala",
+      "menu": [
+        { "label": "Anasayfa", "path": "/" },
+        { "label": "Kiralama", "path": "/rent" },
+        { "label": "Markalar", "path": "/brands" },
+        { "label": "Hakkımızda", "path": "/about" },
+        { "label": "İletişim", "path": "/contact" }
+      ],
+      "brands": ["DJI", "Sony", "Canon", "GoPro", "Apple", "Samsung"]
+    },
+
+    "references": {
+      "title": "Referanslarımız",
+      "items": [
+        { "name": "Aselsan", "logo": "/ref-icons/aselsan.webp" },
+        { "name": "Çevre ve Şehircilik Bakanlığı", "logo": "/ref-icons/cvsb.webp" },
+        { "name": "Tapu ve Kadastro Genel Müdürlüğü", "logo": "/ref-icons/tvk.png" },
+        { "name": "ADM", "logo": "/ref-icons/adm.webp" },
+        { "name": "AFAD", "logo": "/ref-icons/afad.webp" },
+        { "name": "Afyon Üniversitesi", "logo": "/ref-icons/afyonuni.webp" },
+        { "name": "Akdeniz Üniversitesi", "logo": "/ref-icons/aku.webp" },
+        { "name": "Ankara BB", "logo": "/ref-icons/ankarabb.webp" },
+        { "name": "Antalya BB", "logo": "/ref-icons/antalyabb.webp" },
+        { "name": "Bozok", "logo": "/ref-icons/bozok.webp" },
+        { "name": "ÇK Elektrik", "logo": "/ref-icons/ckelektrik.webp" },
+        { "name": "Çoruh Elektrik", "logo": "/ref-icons/coruhelektrik.webp" },
+        { "name": "DSİ", "logo": "/ref-icons/dsi.webp" },
+        { "name": "Eltemtek", "logo": "/ref-icons/eltemtek.webp" },
+        { "name": "ERÜ", "logo": "/ref-icons/eru.webp" },
+        { "name": "Erbakan Üniversitesi", "logo": "/ref-icons/erbakanuni.webp" },
+        { "name": "Fırat Elektrik", "logo": "/ref-icons/firatelektrik.webp" },
+        { "name": "FNSS", "logo": "/ref-icons/fnss.webp" },
+        { "name": "Gebze Üniversitesi", "logo": "/ref-icons/gebzeuni.webp" },
+        { "name": "İC İçtaş", "logo": "/ref-icons/icictas.webp" },
+        { "name": "İzmir BB", "logo": "/ref-icons/izmirbb.webp" },
+        { "name": "İstanbul BB", "logo": "/ref-icons/istanbulbb.webp" },
+        { "name": "İTÜ", "logo": "/ref-icons/itu.webp" },
+        { "name": "Kalyon", "logo": "/ref-icons/kalyon.webp" },
+        { "name": "Kandilli", "logo": "/ref-icons/kandilli.webp" },
+        { "name": "Kayseri BB", "logo": "/ref-icons/kayseribb.webp" },
+        { "name": "KGM", "logo": "/ref-icons/kgm.webp" },
+        { "name": "Kolin", "logo": "/ref-icons/kolin.webp" },
+        { "name": "Konya BB", "logo": "/ref-icons/konyabb.webp" },
+        { "name": "KTÜ", "logo": "/ref-icons/ktu.webp" },
+        { "name": "Makimsan", "logo": "/ref-icons/makimsan.webp" },
+        { "name": "Malatya BB", "logo": "/ref-icons/malatyabb.webp" }
+      ]
+    },
+
+    "featured": {
+      "title": "Öne Çıkanlar",
+      "items": [
+        {
+          "id": 1,
+          "name": "DJI Mini 3",
+          "brand": "DJI",
+          "shortDesc": "Hafif, taşınabilir, 4K çekim ve uzun batarya süresi.",
+          "image": "https://picsum.photos/600/600?random=1",
+          "buyLink": "https://gnssteknik.com.tr",
+          "moreInfoLink": "https://gnssteknik.com.tr"
+        },
+        {
+          "id": 2,
+          "name": "Sony A7 IV",
+          "brand": "Sony",
+          "shortDesc": "Profesyonel fotoğraf ve video için güçlü bir gövde.",
+          "image": "https://picsum.photos/600/600?random=2",
+          "buyLink": "https://gnssteknik.com.tr",
+          "moreInfoLink": "https://gnssteknik.com.tr"
+        }
+      ]
+    }
+  },
+
+  "navigation": {
+    "categoryMenu": [
+      {
+        "name": "GNSS",
+        "title": "GNSS Teknolojisi: Hassas Konumlandırma",
+        "icon": "navbar-icons/gnss-icon.webp",
+        "photo": "/navbar-photos/gnss0.webp",
+        "path": "/gnss",
+        "description": "GNSS (Global Navigation Satellite System), küresel konum, hız ve zaman belirleme"
+      }
+    ]
+  },
+
+  "categoryNavbar": [
+    {
+      "name": "GNSS",
+      "title": "GNSS Teknolojisi: Hassas Konumlandırma",
+      "icon": "navbar-icons/gnss-icon.webp",
+      "photo": "/navbar-photos/gnss0.webp",
+      "path": "/gnss",
+      "description": "GNSS (Global Navigation Satellite System), küresel konum, hız ve zaman belirleme sistemlerinin genel adıdır. GPS, GLONASS, Galileo ve BeiDou gibi uydu sistemlerinin birlikte çalışmasıyla, dünya üzerinde her noktada, her an kesin konum belirlemesi yapılabilir. Özellikle RTK ve PPP teknolojileri sayesinde santimetre düzeyinde doğruluk sağlanabilir. GNSS, inşaat, haritacılık, tarım, madencilik, denizcilik, ulaşım, akıllı şehir uygulamaları ve otonom sistemlerde kritik bir rol oynar. GNSS alıcıları, zorlu saha koşullarında bile güvenilir veri sunar. Gerçek zamanlı veri iletimi, yüksek uydu takip kapasitesi ve dayanıklı gövde yapılarıyla hem mobil hem sabit uygulamalarda kullanılır. Büyük ölçekli altyapı projeleri, metro ve tünel çalışmaları, arazi düzenlemeleri ve jeodezik ölçümlerde yüksek doğruluk ve verimlilik sağlar."
+    },
+    {
+      "name": "TOTAL STATION",
+      "title": "Total Station Teknolojisi: Profesyonel Ölçüm Cihazları",
+      "icon": "navbar-icons/tstation.webp",
+      "photo": "/navbar-photos/totals.webp",
+      "path": "/total-station",
+      "description": "Total Station; lazer, elektronik açı ve mesafe ölçüm cihazlarını bir araya getiren, sahada hızlı ve yüksek doğrulukla veri toplayabilen gelişmiş ölçüm sistemidir. Otomatik hedef tanıma, prizma takibi ve uzaktan veri aktarımı gibi özellikleri sayesinde büyük inşaat projelerinde ve mühendislik uygulamalarında kritik rol oynar. CAD ve BIM sistemlerine kolay veri aktarımı, sahada hatasız ölçüm, hızlı veri kaydı ve gerçek zamanlı doğrulama imkanı sunar. Total Station cihazları, köprü inşaatları, otoyol çalışmaları, tünel kazıları ve baraj projelerinde santimetre altı hassasiyet sağlar. Dayanıklı ve ergonomik tasarımlarıyla her türlü hava ve saha koşulunda kullanılabilir. Entegre yazılımları ile rapor üretimi ve veri analizi süreçlerini hızlandırır."
+    },
+    {
+      "name": "İHA",
+      "title": "İHA Teknolojisi: Havadan Görüntüleme ve Haritalama",
+      "icon": "navbar-icons/iha.webp",
+      "photo": "/navbar-photos/iha.webp",
+      "path": "/iha",
+      "description": "İnsansız Hava Araçları (İHA), yüksek çözünürlüklü görüntüleme, ortofoto üretimi ve 3D modelleme alanlarında kullanılan, otonom veya yarı otonom hava araçlarıdır. Haritalama alanında, zorlu arazilerde hızlı ve verimli veri toplama imkanı sunar. GNSS, lidar ve multispektral kamera entegrasyonları ile tarım, madencilik, inşaat ve afet yönetimi gibi birçok sektörde kullanılmaktadır. Otomatik uçuş planları oluşturabilir, önceden tanımlanmış rotalar üzerinde hassas veri toplama işlemleri gerçekleştirebilir. Toplanan veriler; arazi analizleri, hacim hesapları, topografik haritalar ve dijital yüzey modelleri oluşturmak için kullanılır. Uçuş sırasında canlı izleme, veri kaydı ve anlık kontrol özellikleriyle saha uygulamalarında büyük avantaj sağlar."
+    },
+    {
+      "name": "LİDAR",
+      "title": "Lidar Teknolojisi: Yüksek Hassasiyetli 3D Tarama",
+      "icon": "navbar-icons/lidar.webp",
+      "photo": "/navbar-photos/lidar4.webp",
+      "path": "/lidar",
+      "description": "Lidar (Light Detection and Ranging), lazer ışınlarıyla yüzeyleri tarayarak üç boyutlu nokta bulutları oluşturan ileri seviye bir teknolojidir. Hava ve kara araçlarına monte edilerek geniş alanlarda milimetrik doğrulukta veri toplanabilir. Özellikle orman envanteri, yol projeleri, altyapı planlaması, şehir modellemesi ve madencilik sektörlerinde tercih edilir. Karmaşık arazi yapılarının detaylı analizi, bitki örtüsü altındaki yüzey haritalamaları ve hacim hesapları için ideal bir çözümdür. Toplanan veriler, CAD, GIS ve mühendislik yazılımlarına entegre edilerek 3D analiz ve modelleme süreçlerine katkı sağlar. Hız, doğruluk ve detay seviyesi açısından benzersiz avantajlar sunar."
+    },
+    {
+      "name": "NİVO",
+      "title": "Nivo Teknolojisi: Hassas Kot ve Yükseklik Ölçüm Cihazları",
+      "icon": "navbar-icons/nivo.webp",
+      "photo": "/navbar-photos/nivo2.webp",
+      "path": "/nivo",
+      "description": "Nivo, inşaat, altyapı ve mühendislik projelerinde yükseklik farklarını ve kot ölçümlerini hassas şekilde belirlemek için kullanılan profesyonel cihazlardır. Optik ve dijital versiyonları ile farklı kullanıcı ihtiyaçlarına hitap eder. Dijital nivolar, ölçüm sonuçlarını otomatik hesaplar ve anlık ekranda görüntüler. Şantiye uygulamalarında; zemin düzlemesi, şev ölçümü, yol ve köprü eğim kontrolleri gibi kritik alanlarda kullanılır. Titreşim sönümleyici sistemleri ve IP66 koruma sınıfı gövdeleriyle zorlu saha koşullarında uzun süreli dayanıklılık sağlar. Hafif ve taşınabilir yapıları sayesinde sahada hızlı kurulum ve rahat kullanım imkanı sunar."
+    },
+    {
+      "name": "BATİMETRİ",
+      "title": "Batimetri Teknolojisi: Su Altı Haritalama ve Derinlik Ölçümü",
+      "icon": "navbar-icons/batimetri.webp",
+      "photo": "/navbar-photos/batimetri.webp",
+      "path": "/batimetri",
+      "description": "Batimetri, su altı yüzeylerinin derinliklerini ölçmek ve topografik haritalarını çıkarmak için kullanılan ileri seviye bir tekniktir. Tek ışınlı ve çok ışınlı sonar sistemleri ile donatılmış batimetri sistemleri; baraj gölleri, limanlar, nehir yatakları ve deniz alanlarında kullanılır. GNSS entegrasyonu ile birlikte çalışan bu sistemler, koordinatlı derinlik verisi sağlayarak mühendislik projeleri, taşkın analizi, kanal ve liman tasarımları için kritik bilgiler üretir. Canlı veri aktarımı, anlık ekran görüntüleme ve detaylı hacim hesaplama özellikleri sayesinde projelerde zaman kazandırır. Mobil kullanılabilen versiyonları, zorlu deniz koşullarında bile güvenilir sonuçlar sunar."
+    },
+    {
+      "name": "MAKİNE KONTROL",
+      "title": "Makine Kontrol Teknolojisi: Şantiye Otomasyonu ve Hassas Kazı",
+      "icon": "navbar-icons/mk.webp",
+      "photo": "/navbar-photos/mk.webp",
+      "path": "/makine-kontrol",
+      "description": "Makine kontrol sistemleri; ekskavatör, dozer ve greyder gibi ağır inşaat makinelerinde kullanılan, otomatik kazı ve dolgu işlemlerini milimetrik hassasiyetle gerçekleştiren sistemlerdir. GNSS ve sensörlerle entegre çalışan bu teknolojiler, 3D proje verileriyle sahaya doğrudan uygulama yapma imkanı sunar. Operasyonlarda hata oranını minimize eder, işçilik maliyetlerinden tasarruf sağlar ve proje süresini kısaltır. Şantiyelerde zaman yönetimini optimize eden makine kontrol sistemleri, canlı ilerleme takibi ve veri kayıt özellikleri ile tüm süreçleri dijital ortamda izlenebilir hale getirir."
+    },
+    {
+      "name": "SENSÖR",
+      "title": "Sensör Teknolojisi: Akıllı İzleme ve Veri Toplama Sistemleri",
+      "icon": "navbar-icons/sensor.webp",
+      "photo": "/navbar-photos/sensor.webp",
+      "path": "/sensor",
+      "description": "Sensör sistemleri; sıcaklık, nem, basınç, eğim, hareket ve titreşim gibi çevresel ve yapısal verileri anlık olarak toplayan ve işleyen akıllı cihazlardır. IoT altyapısı ile kablosuz veri iletimi yaparak uzaktan izleme imkanı sağlar. Özellikle yapı sağlığı izleme, jeoteknik gözlem, çevresel analizler, tarım ve endüstri sektörlerinde yaygın olarak kullanılır. Uzun pil ömrü, düşük enerji tüketimi ve zorlu saha koşullarına dayanıklı yapıları ile güvenilir veri toplama süreçleri sağlar. Gelişmiş sensör ağları, anlık uyarılar ve otomatik raporlama özellikleriyle projelerin kontrol altında tutulmasına olanak tanır."
+    },
+    {
+      "name": "YAZILIM",
+      "title": "Yazılım Teknolojisi: Veri Analiz, Haritalama ve Raporlama",
+      "icon": "navbar-icons/yazilim.webp",
+      "photo": "/navbar-photos/yazilim.webp",
+      "path": "/yazilim",
+      "description": "Haritalama, veri analiz ve raporlama yazılımları; GNSS, Lidar, İHA ve batimetri sistemlerinden toplanan verileri hızlı ve doğru şekilde işlemek için kullanılır. 3D modelleme, yüzey analizleri, hacim hesaplamaları ve ortofoto üretimi gibi işlemleri tek platformda gerçekleştirme imkanı sunar. CAD ve BIM entegrasyonu sayesinde inşaat ve altyapı projelerinde kolay veri akışı sağlar. Bulut tabanlı veri paylaşımı, otomatik raporlama ve kullanıcı dostu arayüzleri ile saha ve ofis süreçlerini kusursuz şekilde entegre eder. Büyük ölçekli mühendislik projelerinde zaman tasarrufu sağlar ve karar süreçlerini hızlandırır."
+    }
+  ],
+
+  "brandNavbar": [
+    {
+      "name": "3DSurvey",
+      "icon": "marka-icons/3DSURVEY.webp",
+      "path": "/3dsurvey",
+      "bannerphotos": [
+        { "type": "video", "src": "marka-photos/3DSurvey-video-1.webm", "duration": 6 },
+        { "type": "video", "src": "marka-photos/3DSurvey-video-2.webm", "duration": 16 }
+      ],
+      "bannerDescription": "Görüntü İşleme ve Haritalama Yazılımı",
+      "bannerUrl": "https://www.gnssmarketim.com/marka/3dsurvey",
+      "filter": ["/yazilim"]
+    },
+    {
+      "name": "CHCNAV",
+      "icon": "marka-icons/chcnav.webp",
+      "path": "/chcnav",
+      "bannerphotos": [
+        { "type": "video", "src": "marka-photos/chcnav-banner-v1.webm", "duration": 6 },
+        { "type": "video", "src": "marka-photos/chcnav-banner-v2.webm", "duration": 4 },
+        { "type": "video", "src": "marka-photos/chcnav-banner-v3.webm", "duration": 4 },
+        { "type": "video", "src": "marka-photos/chcnav-banner-v4.webm", "duration": 12 }
+      ],
+      "bannerDescription": "Hassas Konumlandırma Çözümleri.",
+      "bannerUrl": "https://www.gnssmarketim.com/marka/chcnav",
+      "filter": ["/gnss", "/total-station", "/iha", "/lidar", "/batimetri", "/makine-kontrol", "/aksesuar", "/sensor"]
+    },
+    {
+      "name": "AUTEL",
+      "icon": "marka-icons/autel.webp",
+      "path": "/autel",
+      "bannerphotos": [
+        { "type": "video", "src": "marka-photos/autel-alpha.webm", "duration": 5 },
+        { "type": "video", "src": "marka-photos/autel-evomax.webm", "duration": 12 }
+      ],
+      "bannerDescription": "Sınırların Ötesinde Çözümler",
+      "bannerUrl": "https://www.gnssmarketim.com/marka/autel",
+      "filter": ["/iha", "/aksesuar"]
+    },
+    {
+      "name": "DJI",
+      "icon": "marka-icons/dji.webp",
+      "path": "/dji",
+      "bannerphotos": [
+        { "type": "video", "src": "marka-photos/dji-banner-1.webm", "duration": 10 },
+        { "type": "video", "src": "marka-photos/dji-banner-2.webm", "duration": 6 },
+        { "type": "video", "src": "marka-photos/dji-banner-3.webm", "duration": 13 }
+      ],
+      "bannerDescription": "Profesyonel Hava Aracı Çözümleri",
+      "bannerUrl": "https://www.gnssmarketim.com/marka/dji",
+      "filter": ["/iha", "/aksesuar"]
+    },
+    {
+      "name": "STEC",
+      "icon": "marka-icons/stec.webp",
+      "path": "/stec",
+      "bannerphotos": [
+        { "type": "image", "src": "marka-photos/stec-banner-p1.webp" },
+        { "type": "image", "src": "marka-photos/stec-banner-p.webp" },
+        { "type": "image", "src": "marka-photos/stec-banner.webp" },
+        { "type": "image", "src": "marka-photos/stec-banner-p2.webp" },
+        { "type": "image", "src": "marka-photos/stec-banner-p3.webp" }
+      ],
+      "bannerDescription": "İleri Teknoloji Çözümler",
+      "bannerUrl": "https://www.gnssmarketim.com/marka/stec",
+      "filter": ["/gnss", "/total-station", "/nivo", "/lidar", "/aksesuar"]
+    },
+    {
+      "name": "SENCEIVE",
+      "icon": "marka-icons/senceive.webp",
+      "path": "/senceive",
+      "bannerphotos": [
+        { "type": "image", "src": "marka-photos/senceive-banner-1.webp" },
+        { "type": "video", "src": "marka-photos/senceive-banner-v1.webm", "duration": 48 }
+      ],
+      "bannerDescription": "Kablosuz Akıllı Sensör Çözümleri",
+      "bannerUrl": "https://www.gnssmarketim.com/marka/senceive",
+      "filter": ["/sensor", "/aksesuar"]
+    },
+    {
+      "name": "BENEWAKE",
+      "icon": "marka-icons/benewake.webp",
+      "path": "/benewake",
+      "bannerphotos": [
+        { "type": "video", "src": "marka-photos/benewake-banner-1.webm", "duration": 22 }
+      ],
+      "bannerDescription": "Lidar Sensör Çözümleri",
+      "bannerUrl": "https://www.gnssmarketim.com/marka/benewake",
+      "filter": ["/sensor", "/aksesuar"]
+    },
+    {
+      "name": "GEOSUN",
+      "icon": "marka-icons/GEOSUN.webp",
+      "path": "/geosun",
+      "bannerphotos": [
+        { "type": "video", "src": "marka-photos/geosun-banner-1.webm", "duration": 11 },
+        { "type": "video", "src": "marka-photos/geosun-banner-2.mp4", "duration": 17 }
+      ],
+      "bannerDescription": "Lidar Sensör Çözümleri",
+      "bannerUrl": "https://www.gnssmarketim.com/marka/geosun",
+      "filter": ["/lidar"]
+    }
+  ],
+
+  
+  "products": [
+    {
+      "id": 1,
+      "name": "CHCNAV HCE600 Android Kontrol Ünitesi",
+      "description": "5.5 İnç, 500 Nit HD+ Ekranıyla, 14 Saat Çalışma Süresiyle HCE600 Android Kontrol Ünitesi.",
+      "images": [
+        "/marka-photos/chcnav/hce600-0.webp",
+        "/marka-photos/chcnav/hce600-1.webp",
+        "/marka-photos/chcnav/hce600-2.webp"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "specs": [
+        "5.5 inç DragonTrail™ HD+ ekran ile güneş ışığında okunabilir IPS panel.",
+        "2.0 GHz Helio MTK 6762 8 çekirdek işlemci ile yüksek performans.",
+        "3 GB RAM ve 32 GB dahili hafıza, 128 GB'a kadar MicroSD desteği.",
+        "Android 10 işletim sistemi ve LandStar uygulaması ile uyumlu.",
+        "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları.",
+        "IP67 ve MIL-STD-810H sertifikaları ile su, toz ve darbeye karşı dayanıklılık.",
+        "Bluetooth 5.0, 4G modem ve çift bant Wi-Fi ile kesintisiz bağlantı.",
+        "6240 mAh batarya ile 14 saate kadar kesintisiz çalışma süresi.",
+        "Alfanumerik tuş takımı ve özelleştirilebilir kısayol tuşları ile kolay kullanım.",
+        "500 nit parlaklık ile zorlu ışık koşullarında yüksek görünürlük.",
+        "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
+        "1.5 metreye kadar beton zemine düşmeye karşı dayanıklılık.",
+        "345 g ağırlığı ile ergonomik kullanım ve taşınabilirlik."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-hce600-gnss-destekli-dayanikli-saha-kontrol-cihazi",
+      "meta": {
+        "title": "CHCNAV HCE600 Android Kontrol Ünitesi | Dayanıklı ve Yüksek Performanslı GNSS Tablet",
+        "description": "CHCNAV HCE600, 5.5 inç HD+ ekranı, güçlü 8 çekirdek Helio MTK işlemcisi ve 14 saat pil ömrü ile profesyonel GNSS saha çalışmaları için dayanıklı Android kontrol ünitesidir. IP67 ve MIL-STD-810H sertifikaları ile zorlu saha koşullarına uygundur.",
+        "keywords": [
+          "CHCNAV HCE600",
+          "Android GNSS kontrol ünitesi",
+          "saha kontrol tableti",
+          "5.5 inç HD+ ekran",
+          "Helio MTK 8 çekirdek işlemci",
+          "IP67 dayanıklılık sertifikası",
+          "MIL-STD-810H sertifikası",
+          "Bluetooth 5.0",
+          "4G modem saha cihazı",
+          "çift bant Wi-Fi",
+          "uzun pil ömrü tablet",
+          "saha veri toplama cihazı",
+          "GNSS saha donanımı",
+          "OTG destekli tablet",
+          "profesyonel GNSS ekipmanı",
+          "taşınabilir saha cihazı",
+          "hızlı veri aktarımı",
+          "ergo tasarım GNSS tablet",
+          "Android 10 işletim sistemi",
+          "kullanıcı dostu GNSS tablet",
+          "hızlı bağlantı özellikleri",
+          "yüksek parlaklık ekran",
+          "zararlı koşullara dayanıklı cihaz",
+          "GNSS saha tablet",
+          "kolay yapılandırma cihazı",
+          "saha ölçüm ekipmanı"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "CHCNAV LT800H GNSS RTK Android Tablet",
+      "description": "8.1 İnçlik Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT800H GNSS Akıllı Android Tablet.",
+      "images": [
+        "/marka-photos/chcnav/lt800h-0.webp",
+        "/marka-photos/chcnav/lt800h-1.webp",
+        "/marka-photos/chcnav/lt800h-2.webp",
+        "/marka-photos/chcnav/lt800h-3.webp",
+        "/marka-photos/chcnav/lt800h-4.webp"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "specs": [
+        "1408 kanallı yüksek hassasiyetli GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou uydu desteği.",
+        "8.1 inç güneş ışığında okunabilir IPS ekran ve Corning Gorilla Glass 3 koruması.",
+        "2.0 GHz 8 çekirdek işlemci ile büyük haritalar ve veri setlerinde hızlı işlem.",
+        "Android 12 İşletim Sistemli.",
+        "Dual SIM 4G modem ile hızlı ve kesintisiz internet bağlantısı.",
+        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullara dayanıklı.",
+        "9000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
+        "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları ile geniş uyumluluk.",
+        "128 GB ROM ve 8 GB RAM ile yüksek depolama ve performans.",
+        "Micro SD kart ile 256 GB'a kadar genişletilebilir hafıza.",
+        "NFC, G-Sensör, Işık Sensörü, E-Pusula ve Jiroskop gibi dahili sensörler.",
+        "Type-C USB ve OTG desteği ile kolay veri aktarımı.",
+        "IP67 standartlarına göre 1.2 metreye kadar düşmelere karşı dayanıklılık.",
+        "Santimetre hassasiyet sunan RTK teknolojisi."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-lt800h-gnss-rtk-destekli-profesyonel-tablet",
+      "meta": {
+        "title": "CHCNAV LT800H GNSS RTK Android Tablet | Geniş Ekranlı Yüksek Performanslı Saha Tableti",
+        "description": "CHCNAV LT800H, 8.1 inç IPS ekranı, güçlü 8 çekirdek işlemcisi ve RTK destekli GNSS modülü ile profesyonel saha ölçümleri için ideal dayanıklı Android tablettir. IP67 sertifikası ve uzun pil ömrüyle zorlu koşullarda üstün performans sağlar.",
+        "keywords": [
+          "CHCNAV LT800H",
+          "GNSS RTK Android tablet",
+          "8.1 inç IPS ekran",
+          "yüksek performans GNSS tablet",
+          "IP67 su toz dayanıklılık",
+          "RTK destekli GNSS ölçümü",
+          "dual SIM 4G modem",
+          "128 GB depolama",
+          "8 GB RAM tablet",
+          "Android 12 işletim sistemi",
+          "profesyonel saha tableti",
+          "uzun pil ömrü tablet",
+          "Corning Gorilla Glass 3",
+          "NFC destekli tablet",
+          "OTG USB desteği",
+          "GNSS saha donanımı",
+          "hızlı veri aktarımı",
+          "dahili sensörler",
+          "GNSS ölçüm tabletleri",
+          "taşınabilir saha cihazı",
+          "kullanıcı dostu GNSS tablet",
+          "saha veri toplama cihazı",
+          "zorlu koşullara dayanıklı tablet",
+          "yüksek hassasiyet GNSS",
+          "şantiye GNSS ekipmanları",
+          "uzun süreli saha kullanımı"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "CHCNAV LT700H GNSS RTK Android Tablet",
+      "description": "8 İnçlik Boyutuyla, 12 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT700H GNSS Akıllı Android Tablet.",
+      "images": [
+        "/marka-photos/chcnav/lt700h-0.webp",
+        "/marka-photos/chcnav/lt700h-1.webp",
+        "/marka-photos/chcnav/lt700h-2.webp",
+        "/marka-photos/chcnav/lt700h-3.webp",
+        "/marka-photos/chcnav/lt700h-4.webp"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "specs": [
+        "Android 8.1 işletim sistemi ve 8 çekirdekli 2.2 GHz işlemci.",
+        "4 GB RAM ve 64 GB dahili hafıza, 128 GB'a kadar Micro SD desteği.",
+        "GPS, GLONASS, BDS ve GALILEO uydu sistemleri ile 5 cm HRMS doğruluk.",
+        "IP67 su ve toz geçirmezlik sertifikası, 1.5 m sert zemine düşme dayanıklılığı.",
+        "8 inç IPS ekran, 1920x1200 çözünürlük, su geçirmez ve eldiven destekli dokunmatik ekran.",
+        "8000 mAh batarya ile 12 saate kadar çalışma süresi ve 5.5 saat şarj süresi.",
+        "5 MP ön kamera, 16 MP arka kamera ve entegre flaş.",
+        "Wi-Fi, Bluetooth 4.1, Type-C/OTG bağlantı desteği.",
+        "NFC, G-sensör, ışık sensörü, mesafe sensörü, e-pusula ve jiroskop.",
+        "Kompakt ve dayanıklı tasarım: 240 x 151 x 32 mm boyutlar ve 675 g ağırlık."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-lt700h-gnss-rtk-destekli-dayanikli-tablet",
+      "meta": {
+        "title": "CHCNAV LT700H GNSS RTK Android Tablet | Dayanıklı 8 İnç Saha Tableti",
+        "description": "CHCNAV LT700H, 8 inç yüksek çözünürlüklü IPS ekranı, 8 çekirdek 2.2 GHz işlemcisi ve 12 saat pil ömrü ile profesyonel RTK GNSS saha ölçümleri için ideal dayanıklı Android tablettir. IP67 sertifikalı su ve toz geçirmezlik ile zorlu çalışma koşullarına uygundur.",
+        "keywords": [
+          "CHCNAV LT700H",
+          "GNSS RTK Android tablet",
+          "8 inç saha tableti",
+          "yüksek performans GNSS tablet",
+          "IP67 su toz dayanıklılık",
+          "RTK hassasiyet",
+          "Android 8.1 işletim sistemi",
+          "8 çekirdek 2.2 GHz işlemci",
+          "4 GB RAM tablet",
+          "64 GB dahili hafıza",
+          "Micro SD genişletilebilir hafıza",
+          "su geçirmez saha cihazı",
+          "eldiven destekli dokunmatik ekran",
+          "uzun pil ömrü tablet",
+          "profesyonel saha ekipmanı",
+          "Wi-Fi ve Bluetooth bağlantısı",
+          "Type-C OTG desteği",
+          "NFC sensörler",
+          "şantiye GNSS tableti",
+          "darbeye dayanıklı tablet",
+          "yüksek çözünürlüklü ekran",
+          "taşınabilir saha cihazı",
+          "kamera özellikli GNSS tablet",
+          "GNSS ölçüm tabletleri",
+          "saha kullanımı için dayanıklı cihaz",
+          "hızlı veri aktarımı"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "CHCNAV LT60H GNSS RTK Android Tablet",
+      "description": "6.3 İnçlik Telefon Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT60H GNSS Akıllı Android Tablet.",
+      "images": [
+        "/marka-photos/chcnav/lt60h-0.webp",
+        "/marka-photos/chcnav/lt60h-1.webp",
+        "/marka-photos/chcnav/lt60h-2.webp"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "control-unit-tablet",
+      "typeTitle": "Kontrol Üniteleri ve Tabletler",
+      "specs": [
+        "1408 kanallı GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou desteği.",
+        "2.0 GHz Qualcomm Snapdragon 8 çekirdek işlemci ve DDR3 bellek ile yüksek performans.",
+        "6.3 inç güneş ışığında okunabilir IPS ekran ve Corning Gorilla Glass 3 koruması.",
+        "Android 12 İşletim Sistemli.",
+        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullarda dayanıklılık.",
+        "IP67 standartlarına göre 1.5 metreye kadar düşmelere karşı dayanıklılık.",
+        "8000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
+        "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları.",
+        "64 GB ROM ve 4 GB RAM ile yüksek depolama ve performans.",
+        "Micro SD kart ile 128 GB'a kadar genişletilebilir hafıza.",
+        "NFC, G-Sensör, Işık Sensörü, E-Pusula ve Jiroskop gibi dahili sensörler.",
+        "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
+        "Dual SIM 4G modem ile kesintisiz internet bağlantısı."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-lt60h-gnss-destekli-akilli-telefon-hassas-konumlandirma",
+      "meta": {
+        "title": "CHCNAV LT60H GNSS RTK Android Tablet | Kompakt 6.3 İnç RTK Destekli Saha Tableti",
+        "description": "CHCNAV LT60H, kompakt 6.3 inç IPS ekranı, Qualcomm Snapdragon 8 çekirdek işlemcisi ve 8 saat pil ömrü ile profesyonel RTK GNSS ölçümleri için tasarlanmış dayanıklı Android tablettir. IP67 sertifikalı dayanıklılığı ve yüksek performansı ile zorlu saha koşullarına uygundur.",
+        "keywords": [
+          "CHCNAV LT60H",
+          "GNSS RTK Android tablet",
+          "6.3 inç saha tableti",
+          "kompakt GNSS tablet",
+          "IP67 su toz dayanıklılık",
+          "RTK hassasiyet",
+          "Android 12 işletim sistemi",
+          "Qualcomm Snapdragon işlemci",
+          "4 GB RAM tablet",
+          "64 GB depolama",
+          "Micro SD genişletilebilir hafıza",
+          "darbeye dayanıklı tablet",
+          "uzun pil ömrü",
+          "profesyonel saha cihazı",
+          "Google Mobile Service sertifikalı",
+          "dual SIM 4G modem",
+          "Type-C OTG desteği",
+          "NFC ve G-sensör",
+          "yüksek performanslı saha tableti",
+          "Corning Gorilla Glass koruma",
+          "taşınabilir saha cihazı",
+          "saha veri toplama",
+          "hızlı veri aktarımı",
+          "şantiye GNSS ekipmanları",
+          "kolay kullanım GNSS tablet",
+          "dayanıklı saha donanımı",
+          "şarj edilebilir saha tableti"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "CHCNAV P5U GNSS Referans CORS İstasyonu",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan P5 GNSS referans alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/p5-0.webp",
+        "/marka-photos/chcnav/p5-1.webp"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "reference-station",
+      "typeTitle": "Referans İstasyonları",
+      "specs": [
+        "1408 kanal desteği ile GPS, GLONASS, Galileo, BDS ve QZSS uydu sistemlerini aynı anda takip edebilir.",
+        "8 mm + 1 ppm yatay ve 15 mm + 1 ppm dikey RTK hassasiyeti.",
+        "32 GB dahili depolama ve 1 TB'a kadar harici depolama desteği.",
+        "24 saate kadar kesintisiz çalışma süresi sunan dahili lityum-iyon batarya.",
+        "IP67 su ve toz geçirmezlik standardı ile zorlu koşullarda güvenilir kullanım.",
+        "NTRIP client/server ve caster desteği ile gelişmiş ağ uyumluluğu.",
+        "Bluetooth ve Wi-Fi bağlantıları ile kablosuz veri iletimi.",
+        "Ethernet ve USB üzerinden hızlı veri aktarımı ve yapılandırma.",
+        "RINEX ve HCN formatlarında veri kaydı desteği.",
+        "HTTP ve FTP üzerinden uzaktan yapılandırma ve veri indirme.",
+        "GNSS sinyallerinde < 1 mm hassasiyetle taşıyıcı faz ölçümü.",
+        "Kompakt ve dayanıklı tasarımı ile mobil ve sabit baz istasyonu olarak kullanılabilme."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-p5u-guclu-ve-entegre-gnss-referans-istasyonu",
+      "meta": {
+        "title": "CHCNAV P5U GNSS Referans CORS İstasyonu | Yüksek Hassasiyetli ve Dayanıklı GNSS Baz İstasyonu",
+        "description": "CHCNAV P5U, 1408 kanal çoklu uydu sistemi takibi ve <1 mm taşıyıcı faz hassasiyetiyle zorlu saha koşullarında üstün performans sunar. IP67 sertifikalı su ve toz geçirmez gövdesi, uzun pil ömrü ve gelişmiş bağlantı seçenekleri ile hem mobil hem sabit referans istasyonu uygulamaları için ideal çözümdür.",
+        "keywords": [
+          "CHCNAV P5U",
+          "GNSS referans istasyonu",
+          "CORS baz istasyonu",
+          "yüksek hassasiyetli GNSS",
+          "çoklu uydu sistemi desteği",
+          "IP67 su toz geçirmez",
+          "taşıyıcı faz ölçümü",
+          "uzun pil ömrü GNSS cihazı",
+          "NTRIP client ve server",
+          "Bluetooth GNSS",
+          "Wi-Fi GNSS bağlantısı",
+          "ethernet veri aktarımı",
+          "mobil ve sabit baz istasyonu",
+          "RINEX veri formatı",
+          "uzaktan yapılandırma",
+          "profesyonel GNSS ekipmanı",
+          "şantiye GNSS çözümü",
+          "yüksek dayanıklılık",
+          "kentsel ve kırsal alan GNSS",
+          "pazar lideri GNSS"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "CHCNAV P5E-Net Referans CORS İstasyonu",
+      "description": "Yüksek hassasiyet ve dayanıklılık sunan P5E-Net GNSS referans alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/p5e-0.webp",
+        "/marka-photos/chcnav/p5e-1.webp"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "reference-station",
+      "typeTitle": "Referans İstasyonları",
+      "specs": [
+        "624 kanal desteği ile tüm uydu sistemlerini takip edebilir.",
+        "GPS (L1/L2/L5), GLONASS (L1/L2/L3), Galileo (E1/E5/E6), BDS (B1/B2/B3), SBAS ve L-Band sinyallerini destekler.",
+        "RTK hassasiyeti: Yatayda 8 mm + 1 ppm, Dikeyde 15 mm + 1 ppm.",
+        "Post-processing hassasiyeti: Yatayda 2.5 mm + 0.5 ppm, Dikeyde 5 mm + 0.5 ppm.",
+        "32 GB dahili hafıza ve harici USB depolama desteği.",
+        "Entegre Bluetooth, Wi-Fi ve 4G modem ile kablosuz iletişim.",
+        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullarda çalışabilir.",
+        "Dahili batarya ile 20 saate kadar çalışma süresi.",
+        "IMX287 işlemci ve 450 MHz hızında çalışma kapasitesi.",
+        "Renkli LCD ekran ve kullanıcı dostu arayüz ile kolay konfigürasyon.",
+        "FTP push ve çevrimiçi indirme desteği ile veri aktarımı.",
+        "Çalışma sıcaklığı: -40°C ile +65°C arası."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-p5e-net-yuksek-performansli-gnss-referans-istasyonu",
+      "meta": {
+        "title": "CHCNAV P5E-Net Referans CORS İstasyonu | Dayanıklı ve Gelişmiş Bağlantılı GNSS Baz İstasyonu",
+        "description": "CHCNAV P5E-Net, 624 kanal uydu takibi, gelişmiş işlemci ve IP67 sertifikasıyla dayanıklı GNSS referans istasyonu sunar. Bluetooth, Wi-Fi ve 4G modem entegrasyonu ile kesintisiz bağlantı ve uzun pil ömrü sağlayarak profesyonel saha uygulamalarında yüksek güvenilirlik sunar.",
+        "keywords": [
+          "CHCNAV P5E-Net",
+          "GNSS referans istasyonu",
+          "CORS baz istasyonu",
+          "yüksek hassasiyet GNSS",
+          "IP67 sertifikalı GNSS",
+          "Bluetooth bağlantı GNSS",
+          "Wi-Fi GNSS",
+          "4G modem GNSS",
+          "yüksek performans GNSS cihazı",
+          "RTK hassasiyeti",
+          "post-processing GNSS",
+          "RINEX formatı",
+          "uzaktan yönetim GNSS",
+          "şantiye GNSS ekipmanı",
+          "kentsel GNSS uygulamaları",
+          "dayanıklı GNSS istasyonu",
+          "yüksek sıcaklık dayanımı",
+          "gelişmiş GNSS işlemci",
+          "profesyonel GNSS ekipmanı"
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "name": "CHCNAV i76 IMU Kameralı CORS-GNSS Alıcısı",
+      "description": "Portatif, Fiyat/Performans, Cors-RTK Gezici, Kameralı Aplikasyon, Yüksek Hassasiyet ve Dayanıklılık Sunan i76 GNSS Alıcısı",
+      "images": [
+        "/marka-photos/chcnav/i76-0.webp",
+        "/marka-photos/chcnav/i76-3.webp",
+        "/marka-photos/chcnav/i76-2.webp",
+        "/marka-photos/chcnav/i76-1.webp",
+        "/marka-photos/chcnav/i76-5.webp"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo, BeiDou gibi tüm uydu sistemlerini takip edebilir.",
+        "Kamera ile AR Aplikasyonu",
+        "5. Nesil Ultra-IMU teknolojisi ile 60°'ye kadar eğik ölçüm sunar.",
+        "17 saat çalışma süresi ve 4.5 saatte tam şarj ile uzun süreli kullanım.",
+        "IP68 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "4. Nesil Air-Medium GNSS anteni ile %96 üzerinde RTK fix oranı.",
+        "32 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "USB Type-C ve Bluetooth 5.0 ile hızlı veri aktarımı ve şarj desteği.",
+        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
+        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
+        "NFC ve Wi-Fi 802.11 a/b/g/n/ac erişim noktası modu ile kablosuz bağlantı.",
+        "Post-processing kinematik (PPK) desteği ile 3 mm + 1 ppm yatay hassasiyet.",
+        "Magnezyum alaşımlı gövde ile 450 g ağırlığında kompakt ve dayanıklı tasarım.",
+        "CAD+AR ile %40 daha hızlı kamera aplikasyonu imkanı",
+        "İnsansız hava araçları için İHA sabit modu"
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-i76-hafif-guclu-ve-imu-rtk-destekli-gnss-alicisi",
+      "meta": {
+        "title": "CHCNAV i76 IMU Kameralı CORS-GNSS Alıcısı | Yüksek Performans ve Kompakt Tasarım",
+        "description": "CHCNAV i76, 1,408 kanal ve 5. Nesil Ultra-IMU teknolojisi ile yüksek hassasiyetli GNSS ölçümleri sunar. 17 saat batarya ömrü, IP68 dayanıklılık ve hızlı veri aktarımı ile saha çalışmalarında verimlilik sağlar.",
+        "keywords": [
+          "CHCNAV i76",
+          "IMU kameralı GNSS alıcısı",
+          "CORS RTK",
+          "yüksek hassasiyet ölçüm",
+          "IP68 dayanıklılık",
+          "USB Type-C",
+          "Bluetooth 5.0",
+          "AR aplikasyon",
+          "PPK desteği",
+          "GNSS saha ekipmanları",
+          "kompakt tasarım",
+          "İHA sabit modu"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "name": "CHCNAV i73+ IMU CORS-GNSS Alıcısı",
+      "description": "Portatif, Fiyat/Performans, 1 W Radyo Modemli, 60° Eğim Ölçüm (IMU), Yüksek Hassasiyet ve Dayanıklılık Sunan i73+ GNSS Alıcısı",
+      "images": [
+        "/marka-photos/chcnav/i73+-0.webp",
+        "/marka-photos/chcnav/i73+-1.webp",
+        "/marka-photos/chcnav/i73+-2.webp"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ile GPS, GLONASS, Galileo ve BeiDou gibi tüm uydu sistemlerini takip edebilir.",
+        "IMU-RTK teknolojisi ile eğim telafisi ve 60°'ye kadar eğimli ölçümler sunar.",
+        "6800 mAh kapasiteye sahip dahili batarya ile RTK modunda 24 saate kadar çalışma süresi.",
+        "1 watt radyo modemi ile 3-8 km'ye kadar RTK kapsama alanı.",
+        "IP67 su ve toz geçirmezlik ve 2 metreye kadar darbe dayanıklılığı.",
+        "NTRIP, APIS ve TCP desteği ile esnek bağlantı seçenekleri.",
+        "10 Hz RTK güncelleme hızı ile gerçek zamanlı konum verileri.",
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı.",
+        "USB Type-C ve Bluetooth 4.2 ile hızlı veri aktarımı ve şarj desteği.",
+        "RTK tilt kompansasyonu ile 8 mm + 0.7 mm/° hassasiyet.",
+        "RINEX, HCN ve NMEA formatlarında veri kaydetme desteği.",
+        "NFC ve Wi-Fi 802.11 b/g/n erişim noktası modu ile kablosuz bağlantı.",
+        "İnsansız hava araçları için İHA sabit modu"
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-i73-plus-hafif-guclu-imu-destekli-gnss-alicisi",
+      "meta": {
+        "title": "CHCNAV i73+ IMU CORS-GNSS Alıcısı | Kompakt ve Yüksek Performanslı GNSS",
+        "description": "CHCNAV i73+, 1,408 kanal ve IMU-RTK eğim ölçümü teknolojisi ile 24 saat batarya ömrü sunan, dayanıklı ve yüksek hassasiyetli portatif GNSS alıcısıdır. IP67 sertifikası ve geniş bağlantı seçenekleri ile sahada güvenilir veri toplar.",
+        "keywords": [
+          "CHCNAV i73+",
+          "IMU CORS GNSS alıcısı",
+          "RTK eğim ölçümü",
+          "24 saat batarya",
+          "IP67 dayanıklılık",
+          "1 W radyo modem",
+          "NTRIP destek",
+          "kablosuz bağlantı",
+          "yüksek hassasiyet ölçüm",
+          "GNSS saha ekipmanları",
+          "Bluetooth 4.2",
+          "NFC bağlantı"
+        ]
+      }
+    },
+
+    {
+      "id": 11,
+      "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
+      "description": "Gelişmiş lazerli aplikasyon, yüksek güçlü 2 W radyo modem, IMU-RTK eğim telafisi, artırılmış gerçeklik (AR) destekli kamera teknolojisi ve ekstrem saha şartlarına karşı üstün dayanıklılığı bir arada sunan STEC SDi GNSS alıcısı, akıllı haritalama çözümlerinde profesyonellerin yeni gözdesidir.",
+      "images": [
+        "/marka-photos/stec/sdi-.webp",
+        "/marka-photos/stec/sdi-logo.webp",
+        "/marka-photos/stec/sdi-0.webp",
+        "/marka-photos/stec/laserfix.webp",
+        "/marka-photos/stec/sdi-1-v4.webm",
+        "/marka-photos/stec/sdi-ikon-1.avif",
+        "/marka-photos/stec/sdi-ikon-2.avif",
+        "/marka-photos/stec/sdi-ikon-3.avif",
+        "/marka-photos/stec/sdi-ikon-4.avif",
+        "/marka-photos/stec/sdi--.webp",
+        "/marka-photos/stec/sdi-4.webm"
+      ],
+      "category": "gnss",
+      "brand": "stec",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1.408 kanallı mimarisi ile GPS, GLONASS, Galileo, BeiDou dahil tüm GNSS sistemlerini tam kapsamlı olarak destekler.",
+        "Total station uyumlu EDM destekli lazeri ile 70 metreye kadar yüksek doğrulukla noktasal koordinat ölçümü gerçekleştirir.",
+        "Sınıf 2 kırmızı lazeri sayesinde 120° görüş alanına kadar etkili lazerli aplikasyon olanağı sunar.",
+        "HDR destekli CMOS kamera ile artırılmış gerçeklik (AR) üzerinden görsel aplikasyon yapılabilir, sahada anında ve doğru hedefleme sağlanır.",
+        "RTK destekli tilt kompansatör sayesinde yatayda 8 mm, düşeyde 15 mm hassasiyetle eğim telafili ölçüm yapılabilir.",
+        "IMU tabanlı dinamik ölçüm sistemiyle 60°'ye kadar kalibrasyon gerektirmeyen eğimli ölçümler desteklenir.",
+        "L-Band ve PPP (Precise Point Positioning) teknolojileri sayesinde internet bağlantısı olmadan da yüksek doğrulukta pozisyonlama sağlar.",
+        "2 Watt gücündeki entegre radyo modem ile açık arazide 15 kilometreye kadar güvenilir ve kesintisiz veri iletimi sunar.",
+        "USB Type-C ve Bluetooth 4.0 bağlantı seçenekleri ile hızlı veri aktarımı ve modern şarj altyapısı sunar.",
+        "RINEX ve NMEA veri formatlarında kayıt yapabilme özelliği ile gelişmiş veri toplama ve dışa aktarım imkânı sağlar.",
+        "IP68 koruma standardı ile suya, toza ve zorlu çevre koşullarına karşı tam dayanıklılık gösterir; -30°C ile +65°C arası çalışma garantisi sunar.",
+        "890 gramlık magnezyum alaşımlı gövdesi hem ultra hafiflik hem de maksimum darbe direnci sağlar.",
+        "USB Type-C portu üzerinden yüksek hızlı şarj ve veri aktarımı desteklenir, saha süresi kesintisiz devam eder.",
+        "NFC özelliği ile cihazlar arasında saniyeler içinde kolay eşleşme ve hızlı bağlantı kurulur.",
+        "13.600 mAh kapasiteli bataryası ile 15 saat kesintisiz çalışma süresi sunarak tüm gün boyunca görevde kalır.",
+        "İHA sabit modu sayesinde insansız hava araçlarıyla entegrasyon sağlayarak GNSS sistemini havadan destekler."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-sdi-imu-rtk-gnss-alicisi-ar-destekli",
+      "brochureUrl": "/brosur/stec-sdi.pdf",
+      "featured": true,
+      "meta": {
+        "title": "STEC SDi Lazerli-Kameralı Akıllı GNSS Alıcısı | Yüksek Hassasiyetli AR, IMU ve Lazerli Ölçüm",
+        "description": "STEC SDi GNSS alıcısı, lazer tabanlı EDM ölçümü, AR destekli HDR kamera, IMU-RTK eğim düzeltmesi ve 1.408 kanal desteği ile sektörde yeni bir standart belirliyor. IP68 dayanıklılığı, 15 saatlik batarya süresi ve ileri bağlantı özellikleri sayesinde her türlü zorlu saha koşulunda en yüksek performansı sunar.",
+        "keywords": [
+          "STEC SDi",
+          "akıllı GNSS alıcısı",
+          "lazerli GNSS",
+          "kameralı GNSS",
+          "AR destekli aplikasyon",
+          "IMU RTK eğim ölçümü",
+          "HDR CMOS kamera",
+          "IP68 dayanıklılık",
+          "15 saat batarya",
+          "NFC bağlantı",
+          "Bluetooth 4.0",
+          "USB-C veri aktarımı",
+          "PPP L-Band",
+          "RINEX NMEA kayıt",
+          "GNSS drone modu",
+          "uzun menzilli radyo modem"
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "name": "STEC SE Lite IMU Kameralı GNSS Alıcısı",
+      "description": "Portatif, Fiyat/Performans, 2W Radyo Modemli, Kamera ile Aplikasyon Özellikli Yüksek Performans Sunan SE Lite GNSS Alıcısı.",
+      "images": [
+        "/marka-photos/stec/se-lite.0.webp",
+        "/marka-photos/stec/se-lite.avif",
+        "/marka-photos/stec/se-lite-01.webm",
+        "/marka-photos/stec/fusionar.webp",
+        "/marka-photos/stec/se-lite-1.webp",
+        "/marka-photos/stec/se-lite-ikon-1.avif",
+        "/marka-photos/stec/se-lite-ikon-2.avif",
+        "/marka-photos/stec/se-lite-ikon-3.avif",
+        "/marka-photos/stec/se-lite-ikon-4.avif",
+        "/marka-photos/stec/se-lite-2.webm",
+        "/marka-photos/stec/se-lite-3.webp"
+      ],
+      "category": "gnss",
+      "brand": "stec",
+      "type": "akilli-gnss",
+      "typeTitle": "Akıllı GNSS Alıcıları",
+      "specs": [
+        "1,408 kanal desteği ve 21 frekans ile geniş uydu takibi yapabilir.",
+        "ZENITH algoritması ile yoğun ağaçlık alanlarda ve yüksek binalar arasında bile hızlı sinyal sabitleme sağlar.",
+        "İnsansız hava araçları için İHA sabit modu",
+        "108 mm genişlik ve 82 mm yükseklik ile son derece kompakt bir tasarıma sahiptir.",
+        "8+1 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
+        "S-Link ile 15 km'ye kadar güvenli ve stabil RTK yayını.",
+        "EZtilt ile 60° eğim açısına kadar kalibrasyona gerek olmadan veri toplayabilir.",
+        "Yukarı yönlü akıllı anten tasarımı ile daha geniş kapsama alanı ve uzun menzil sağlar.",
+        "Android uyumlu ve gerçek zamanlı veri toplama kapasitesine sahiptir.",
+        "10.200 mAh batarya ömrü ile 15 saat çalışma süresi sunar.",
+        "IP68 su ve toz geçirmezlik ve 2m'ye kadar darbe dayanıklılığı.",
+        "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-se-lite-gnss-alicisi-kompakt-tasarimda-ustun-performans",
+      "brochureUrl": "/brosur/stec-se-lite.pdf",
+      "meta": {
+        "title": "STEC SE Lite IMU Kameralı GNSS Alıcısı | Kompakt ve Yüksek Performanslı Akıllı GNSS",
+        "description": "STEC SE Lite, 1,408 kanal ve 21 frekans desteği, yüksek RTK hassasiyeti ve kompakt tasarımı ile fiyat/performans dengesi sunan GNSS alıcısıdır. IP68 dayanıklılığı, 15 saat batarya ömrü ve AR aplikasyon özellikleri ile saha çalışmalarında yüksek verimlilik sağlar.",
+        "keywords": [
+          "STEC SE Lite",
+          "akıllı GNSS alıcısı",
+          "IMU kameralı GNSS",
+          "RTK hassasiyet",
+          "IP68 dayanıklılık",
+          "kompakt GNSS alıcısı",
+          "2W radyo modem",
+          "15 saat batarya ömrü",
+          "AR aplikasyon",
+          "GNSS saha ekipmanları",
+          "S-Link RTK yayını",
+          "EZtilt eğim ölçümü"
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "name": "STEC AXIS-4 Total Station Serisi",
+      "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS-4 Serisi Total Station.",
+      "images": [
+        "/marka-photos/stec/axis-4.0.webp",
+        "/marka-photos/stec/axis-4-logo.webp",
+        "/marka-photos/stec/axis-4-1.webp",
+        "/marka-photos/stec/total-s-ikon.webp",
+        "/marka-photos/stec/axis-4-3.webm",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/axis-4-2.webp",
+        "/marka-photos/stec/axis-4-4.webp"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "type": "manuel-totalstation",
+      "typeTitle": "Manuel Total Station",
+      "specs": [
+        "1\"/2\" Açı Hassasiyeti Ve 1/1.5/2 Km Prizmasız Menzil Sunar.",
+        "AXIS 4:1500m Reflektörülü 5000m Reflektörlü / 2\" Açı Hassasiyeti",
+        "AXIS 4L:2000m Reflektörülü 5000m Reflektörlü/  2\" Açı Hassasiyeti",
+        "AXIS 4P:1000m Reflektörülü 5000m Reflektörlü / 1\" Açı Hassasiyeti",
+        "4' Eğim Telafisi Ve 1+1/2+2 Ppm Mesafe Hassasiyeti İle Yüksek Doğruluk Sağlar.",
+        "3900 mAh Bataryası İle 10 Saat Çalışma Süresi Ve 0.3 Saniyede Ölçüm Yapabilme Kapasitesine Sahiptir.",
+        "4\" LCD Renkli Dokunmatik Ekran Ve Kullanıcı Dostu Grafik Arayüz İçerir.",
+        "Cad Aplikasyonu, Grafik Ölçüm Ve Yol Modülü Gibi Gelişmiş Ölçüm Programları İle Donatılmıştır.",
+        "Bluetooth, USB Ve WLAN İle Kablosuz Veri Aktarımı Yapabilir.",
+        "Tek Tuşla Lazerli Otomatik Alet Yüksekliği Ölçme Özelliği İle Hata Oranını Azaltır.",
+        "Yenilenen İkon Tabanlı Arayüz İle Daha Kolay Kullanım Sağlar.",
+        "Her Ölçüm Sonrası Grafiklerle Sonuçları Gösterir Ve Ekranda Gösterir.",
+        "IP66 Suya Ve Toza Dayanıklılık Sayesinde Zorlu Saha Koşullarında Güvenle Kullanılabilir.",
+        "32 GB Dahili Hafıza İle Büyük Miktarda Veri Saklama Kapasitesi Sunar.",
+        "-20°C To 50°C Çalışma Şartlarına Uygundur."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-4-total-station-yuksek-hassasiyet-esneklik",
+      "brochureUrl": "/brosur/stec-axis-4.pdf",
+      "meta": {
+        "title": "STEC AXIS-4 Manuel Total Station | Hassas ve Esnek 2\" Açı Ölçümü",
+        "description": "STEC AXIS-4, 2\" açı hassasiyeti, prizmasız 1.5-2 km ölçüm kabiliyeti ve otomatik yükseklik ölçümü özellikleri ile yüksek hassasiyetli manuel total station çözümüdür. IP66 dayanıklılığı ve gelişmiş veri aktarım seçenekleri ile sahada güvenle kullanılır.",
+        "keywords": [
+          "STEC AXIS-4",
+          "manuel total station",
+          "yüksek hassasiyet total station",
+          "prizmasız ölçüm",
+          "otomatik yükseklik ölçümü",
+          "IP66 koruma",
+          "bluetooth bağlantısı",
+          "inşaat ölçüm cihazları",
+          "haritacılık ekipmanları",
+          "uzun batarya ömrü",
+          "dokunmatik ekran",
+          "grafik ölçüm programları"
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "name": "STEC AXIS-9 Android Total Station Serisi",
+      "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü, Android İşletim Sistemli Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS 9 Serisi Total Station.",
+      "images": [
+        "/marka-photos/stec/axis-9.0.webp",
+        "/marka-photos/stec/axis-9-logo.webp",
+        "/marka-photos/stec/axis-9-1.webp",
+        "/marka-photos/stec/total-s-ikon.webp",
+        "/marka-photos/stec/axis-9-2.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/bos.webp",
+        "/marka-photos/stec/axis-9-3.webp",
+        "/marka-photos/stec/axis-9-5.webp"
+      ],
+      "category": "total-station",
+      "brand": "stec",
+      "type": "android-totalstation",
+      "typeTitle": "Android Tabanlı Total Station",
+      "specs": [
+        "1\"/2\" Açı Hassasiyeti Ve 1/1.5/2 Km Prizmasız Menzil Sunar.",
+        "AXIS 9:1500m Reflektörsüz 5000m Reflektörlü / 2\" Açı Hassasiyeti",
+        "AXIS 9L:2000m Reflektörsüz 5000m Reflektörlü / 2\" Açı Hassasiyeti",
+        "AXIS 9P:1000m Reflektörsüz 5000m Reflektörlü / 1\" Açı Hassasiyeti",
+        "Android 9 İşletim Sistemi İle Yüksek Verimli Ve Hızlı Çalışma Olanağı Sağlar.",
+        "4' Eğim Telafisi Ve 1+1/2+2 Ppm Mesafe Hassasiyeti İle Yüksek Doğruluk Sağlar.",
+        "5000 mAh Bataryası İle 10 Saat Çalışma Süresi Ve 0.3 Saniyede Ölçüm Yapabilme Kapasitesine Sahiptir.",
+        "5.0 İnç Yüksek Çözünürlüklü Dokunmatik Ekran Ve Android 9 İşletim Sistemi İle Kullanıcı Dostu Bir Arayüz Sunar.",
+        "Tek Tuşla Lazerli Otomatik Alet Yüksekliği Ölçme Özelliği İle Hata Oranını Azaltır.",
+        "Yerleşik Kılavuz Işığı İle Aplikasyon İşlemlerini Kolaylaştırır.",
+        "Bluetooth, USB, WLAN Ve E-Posta İle Geniş Bağlantı Seçenekleri Sunar.",
+        "1000M, 1500M Ve 2000M NP Menzil Seçenekleri İle Esnek Kullanım İmkanı Tanır.",
+        "Google Servis Desteği Ve Güçlü Grafik Özellikleri İle Kolay Veri Yönetimi Sağlar.",
+        "-20°C To 50°C Çalışma Şartlarına Uygundur.",
+        "IP66 Suya Ve Toza Dayanıklılık Sayesinde Zorlu Saha Koşullarında Güvenle Kullanılabilir.",
+        "32 GB Dahili Hafıza İle Büyük Miktarda Veri Saklama Kapasitesi Sunar."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/stec-axis-9-robotik-total-station-yuksek-hassasiyet",
+      "brochureUrl": "/brosur/stec-axis-9.pdf",
+      "featured": true,
+      "meta": {
+        "title": "STEC AXIS-9 Android Total Station | Yüksek Hassasiyetli 2\" Açı ve Uzun Menzilli Total Station",
+        "description": "STEC AXIS-9, 2\" açı hassasiyeti, 1.5-2 km prizmasız ölçüm ve Android işletim sistemi ile hızlı ve hassas saha ölçümleri sunan robotik total station serisidir. IP66 koruması ve gelişmiş bağlantı seçenekleri ile zorlu koşullarda üstün performans sağlar.",
+        "keywords": [
+          "STEC AXIS-9",
+          "android total station",
+          "yüksek hassasiyet total station",
+          "reflektörsüz ölçüm",
+          "prizmasız menzil",
+          "IP66 koruma",
+          "robotik total station",
+          "uzun batarya ömrü",
+          "yükseklik ölçümü",
+          "bluetooth bağlantısı",
+          "haritacılık ekipmanları",
+          "inşaat ölçüm cihazları"
+        ]
+      }
+    },
+
+    {
+      "id": 61,
+      "name": "GS-200G El Tipi SLAM LiDAR Tarama Sistemi",
+      "title": "GS-200G – Hafif ve Ekonomik SLAM Destekli Lidar Tarama Sistemi",
+      "description": "GS-200G, Geosun tarafından geliştirilen, Livox Mid-360 sensörü ve gelişmiş SLAM algoritmaları ile donatılmış hafif bir el tipi LiDAR tarama sistemidir. GNSS sinyallerinin yetersiz olduğu ortamlarda bile yüksek hassasiyetle çalışan bu sistem, iç ve dış mekân haritalama, dijital ikiz modelleme, altyapı denetimi ve ormancılık gibi uygulamalarda etkili sonuçlar sunar. 1 kg’lık kompakt yapısı ve yüksek verimliliği ile mobil ve ergonomik bir çözüm sağlar.",
+      "images": [
+        "/marka-photos/geosun/gs-200g-0.png",
+        "/marka-photos/geosun/gs-200g-1.png",
+        "/marka-photos/geosun/gs-200g-2.png",
+        "/marka-photos/geosun/gs-200g-3.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "el-tipi-lidar",
+      "typeTitle": "El Tipi SLAM LiDAR Çözümü",
+      "specs": [
+        "SLAM, RTK-SLAM ve PPK-SLAM algoritmaları desteklidir.",
+        "1 cm göreli, 5 cm mutlak konum doğruluğu ile yüksek hassasiyetli tarama sağlar.",
+        "1.0 kg ağırlığı ile elde taşımaya ve mobil kullanıma uygundur.",
+        "GNSS (GPS, GLONASS, GALILEO, BDS) sistemleriyle uyumlu çalışır.",
+        "gSpin 210 IMU ile 200 Hz güncelleme frekansına sahiptir.",
+        "40 m ölçüm menzili ve ≤2 cm (10 m’de) mesafe hassasiyeti sunar.",
+        "360° yatay ve -7°~52° dikey görüş açısı ile kapsamlı tarama sağlar.",
+        "1535 nm dalga boyunda çalışan lazer tarayıcı ile 200.000 nokta/sn veri üretir.",
+        "2 adet 20 MP kamera ile senkronize görsel veri kaydı gerçekleştirir.",
+        "128 GB microSD depolama kapasitesi ile veri saklama kolaylığı sağlar.",
+        "≤25 W sistem tüketimi ile enerji verimliliği sunar.",
+        "12–20V giriş voltaj aralığında çalışır.",
+        "Zorlu çevre koşullarında (-20°C ila +55°C) güvenle kullanılabilir.",
+        "Haritalama modlarında GNSS-desteksiz alanlarda dahi veri kaybı yaşanmaz.",
+        "Yüksek verimlilik ve güçlü penetrasyon özelliği ile ormanlık ve kapalı alanlarda etkili performans sunar."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-200g-tasinabilir-slam-destekli-lidar-tarama-sistemi",
+      "featured": true,
+      "meta": {
+        "title": "GS-200G El Tipi SLAM LiDAR | Hafif ve Ekonomik Lidar Haritalama Sistemi",
+        "description": "GS-200G, Livox Mid-360 sensörü ve gelişmiş SLAM algoritmaları ile donatılmış, hafif ve taşınabilir bir LiDAR çözümüdür. GNSS sinyallerinin yetersiz olduğu ortamlarda bile yüksek doğrulukla çalışır.",
+        "keywords": [
+          "GS-200G LiDAR",
+          "el tipi lidar",
+          "hafif lidar tarayıcı",
+          "ekonomik lidar çözümü",
+          "slam lidar sistemi",
+          "GNSS destekli lidar",
+          "geosun lidar",
+          "gerçek zamanlı lidar",
+          "kapalı alan lidar çözümü",
+          "ormancılık lidar",
+          "altyapı denetimi lidar",
+          "dijital ikiz lidar sistemi"
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "name": "GS-100G El Tipi SLAM LiDAR Tarama Sistemi",
+      "title": "GS-100G – Taşınabilir SLAM Destekli Lidar Tarama Sistemi",
+      "description": "GS-100G, Geosun tarafından geliştirilen, iç ve dış mekânlarda kullanılabilen, SLAM algoritması destekli taşınabilir bir LiDAR tarama çözümüdür. Ergonomik yapısı, hassasiyet seviyesi ve gerçek zamanlı görüntüleme yetenekleri ile mimari ölçüm, tünel tarama, şehir parkı analizi gibi birçok uygulama alanında güvenilir ve yüksek performanslı veri üretimi sağlar.",
+      "images": [
+        "/marka-photos/geosun/gs-100g-0.webp",
+        "/marka-photos/geosun/gs-100g-0.webp",
+        "/marka-photos/geosun/gs-100g-1.jpg",
+        "/marka-photos/geosun/gs-100g-2.png"
+      ],
+      "category": "lidar",
+      "brand": "geosun",
+      "type": "el-tipi-lidar",
+      "typeTitle": "El Tipi SLAM LiDAR Çözümü",
+      "specs": [
+        "SLAM, RTK-SLAM ve PPK-SLAM algoritmaları ile iç ve dış mekânlarda eş zamanlı konumsal tarama yapılabilir.",
+        "Centimetre düzeyinde (≤5 cm) doğruluk ile hassas 3D modelleme sağlar.",
+        "2.2 kg ağırlığında olan yapı, el ile taşınabilir ve sırt çantası konfigürasyonları ile sahada pratik kullanım sunar.",
+        "GNSS (GPS, GLONASS, GALILEO, BDS) destekli yüksek konum doğruluğu sağlar.",
+        "gSpin 210 IMU ve 200Hz veri güncelleme hızı sayesinde yüksek kararlılıkla yönelim bilgisi üretir.",
+        "16 kanallı lazer tarayıcı, 640.000 nokta/saniye veri üretimi ile detaylı tarama sağlar.",
+        "120 m menzil ve ±1.5 cm mesafe hassasiyeti ile geniş kapsamlı alan analizleri yapılabilir.",
+        "3 adet 5 MP kamera ile görsel destekli veri kaydı ve sonradan işlenebilir modelleme verisi üretilir.",
+        "270° yatay ve 360° dikey görüş açısı ile kör noktasız çevresel tarama yapılabilir.",
+        "128 GB dahili depolama alanı ve 2 saatlik kesintisiz pil ömrü ile sahada uzun süreli tarama imkânı sunar.",
+        "Gelişmiş nokta bulutu sınıflandırma ve işleme yazılımı ile post-processing süreci optimize edilmiştir.",
+        "Android tabanlı uygulama ile gerçek zamanlı veri izleme, sistem kontrolü ve kullanım kolaylığı sağlar.",
+        "Çalışma sıcaklığı -20°C ila +55°C aralığındadır; zorlu saha koşullarına uygundur."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/urun/gs-100g-tasinabilir-slam-destekli-lidar-tarama-sistemi",
+      "featured": true,
+      "meta": {
+        "title": "GS-100G El Tipi SLAM LiDAR | Taşınabilir Lidar Haritalama Sistemi",
+        "description": "GS-100G, el tipi, SLAM destekli LiDAR tarama sistemi olup GNSS ve IMU destekli yapısı sayesinde yüksek doğrulukta 3D modelleme sağlar. Hafif, taşınabilir ve gerçek zamanlı görüntüleme sunar.",
+        "keywords": [
+          "GS-100G LiDAR",
+          "el tipi lidar",
+          "taşınabilir lidar tarayıcı",
+          "slam lidar sistemi",
+          "yüksek doğruluk lidar",
+          "geosun handheld lidar",
+          "gerçek zamanlı lidar uygulaması",
+          "centimetre hassasiyetli lidar",
+          "android destekli lidar",
+          "3d modelleme lidar",
+          "tünel tarama lidar",
+          "şehir parkı lidar çözümü",
+          "GNSS destekli lidar"
+        ]
+      }
+    }
+  ],
+  
+  
+
+  "socialLinks": [
+    { "name": "Instagram", "icon": "FaInstagram", "url": "https://www.instagram.com/gnssteknik/" },
+    { "name": "LinkedIn", "icon": "FaLinkedin", "url": "https://www.linkedin.com/company/gnss-teknik/" },
+    { "name": "YouTube", "icon": "FaYoutube", "url": "https://www.youtube.com/user/gnssteknik" },
+    { "name": "Facebook", "icon": "FaFacebook", "url": "https://www.facebook.com/Gnssteknik" },
+    { "name": "Twitter", "icon": "FaTwitter", "url": "https://x.com/gnssteknik" },
+    { "name": "WhatsApp", "icon": "FaWhatsapp", "url": "https://wa.me/905302827888" }
+  ],
+
+  "footer": {
+    "accordionSections": [
+      {
+        "title": "GENEL",
+        "items": [
+          { "label": "Anasayfa", "href": "/" },
+          { "label": "Hakkımızda", "href": "/aboutus" },
+          { "label": "KVKK", "href": "/kvkk" }
+        ]
+      },
+      {
+        "title": "ÖNE ÇIKAN ÜRÜNLER",
+        "items": [
+          { "label": "STEC SDi Lazerli GNSS", "href": "/gnss/stec/stec-sdi-lazerli-kamerali-gnss-alicisi" },
+          { "label": "3D Survey", "href": "/category/yazilim/3dsurvey" },
+          { "label": "Autel EVO II RTK", "href": "/category/iha/autel/autel-evo-ii-rtk-v3" },
+          { "label": "Benewake AD2-S X3", "href": "/category/sensor/benewake-vp/benewake-ad2-s-x3" },
+          { "label": "Senceive Çözümleri", "href": "/category/sensor/senceive" }
+        ]
+      },
+      {
+        "title": "KATEGORİLER & MARKET",
+        "items": [
+          { "label": "Kategoriler", "href": "/category" },
+          { "label": "GNSS Marketim", "href": "https://www.gnssmarketim.com", "external": true },
+          { "label": "Banka Hesap Bilgileri", "href": "/aboutus#bank-accounts" }
+        ]
+      },
+      {
+        "title": "GNSS HARİTA TEKNİK DAN. SAN. VE TİC. A.Ş.",
+        "items": [
+          { "label": "Balgat Mahallesi 1418. Sokak No:10 Daire:9/11, 06520 Çankaya / ANKARA" },
+          { "label": "Tel: 0 (312) 285 14 20" },
+          { "label": "Faks: 0 (312) 285 14 21" },
+          { "label": "V.D.: HİTİT" },
+          { "label": "VKN: 3961015309" },
+          { "label": "Ticaret Sicil No: 254606" },
+          { "label": "E-posta: info@gnssteknik.com.tr" }
+        ]
+      }
+    ],
+
+    "bankInfo": {
+      "title": "Banka Bilgileri",
+      "ibanTable": [
+        {
+          "banka": "AKBANK",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "sube": "NECATİBEY CAD.",
+          "subeKodu": "241",
+          "tlIban": "TR06 0004 6002 4188 8000 1254 31"
+        },
+        {
+          "banka": "GARANTİ",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "sube": "EMEK",
+          "subeKodu": "778",
+          "tlIban": "TR24 0006 2000 7780 0006 2977 13"
+        },
+        {
+          "banka": "FİNANSBANK",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "sube": "ÇETİN EMEÇ",
+          "subeKodu": "-",
+          "tlIban": "TR50 0011 1000 0000 0056 3321 64"
+        },
+        {
+          "banka": "İŞ BANKASI",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "sube": "YENİŞEHİR",
+          "subeKodu": "4218",
+          "tlIban": "TR91 0006 4000 0014 2185 6128 94"
+        },
+        {
+          "banka": "ZİRAAT KATILIM",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "sube": "BALGAT",
+          "subeKodu": "37",
+          "tlIban": "TR42 0020 9000 0076 2977 0000 01"
+        }
+      ],
+      "swiftTable": [
+        {
+          "banka": "AKBANK",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "usdIban": "TR27 0004 6002 4100 1000 1254 32",
+          "usdSwift": "AKBKTRIS",
+          "eurIban": "TR74 0004 6002 4103 6000 1254 33",
+          "eurSwift": "AKBKTRIS"
+        },
+        {
+          "banka": "GARANTİ",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "usdIban": "TR71 0006 2000 7780 0009 0916 31",
+          "usdSwift": "TGBATRISXXX",
+          "eurIban": "TR44 0006 2000 7780 0009 0916 32",
+          "eurSwift": "TGBATRISXXX"
+        },
+        {
+          "banka": "FİNANSBANK",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "usdIban": "TR87 0011 1000 0000 0105 4205 79",
+          "usdSwift": "FNNBTRIS",
+          "eurIban": "-",
+          "eurSwift": "-"
+        },
+        {
+          "banka": "İŞ BANKASI",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "usdIban": "TR95 0006 4000 0024 2187 1788 82",
+          "usdSwift": "ISBKTRIS",
+          "eurIban": "-",
+          "eurSwift": "-"
+        },
+        {
+          "banka": "ZİRAAT KATILIM",
+          "hesapSahibi": "GNSS Harita Teknik Danışmanlık Sanayi ve Ticaret A.Ş.",
+          "usdIban": "TR15 0020 9000 0076 2977 0000 02",
+          "usdSwift": "ZKBATRIS",
+          "eurIban": "-",
+          "eurSwift": "-"
+        }
+      ]
+    }
+  },
+
+  "aboutUs": {
+    "aboutUs": {
+      "title": "Hakkımızda",
+      "paragraphs": [
+        "Firmamız, <b>2008 yılında</b> kurulmuş olup, <b>2012 yılında</b> yeni bir yapılanmaya giderek <b>GNSS teknolojileri</b> firmalarından <b>CHCNAV</b> ile iş birliği yapmaya başlamıştır. Aynı dönemde el tipi <b>GNSS çözümleri</b> sunan <b>BHC</b> firması ile anlaşmaya vararak Türkiye yetkili satıcısı olmuştur. Mobil <b>GBS (GIS)</b> çözümleri için <b>Digiterra</b> firması ile görüşmeler gerçekleştirilmiş ve yazılım alanında geniş bir ürün yelpazesi oluşturularak konumsal çözümler sunulmaya başlanmıştır. <b>2019 yılında DJI Enterprise</b> bayisi olarak yetkilendirilmiş ve hemen ardından <b>3D Survey Fotoğraf Değerleme ve Harita Üretim yazılımı</b>nın da yetkili satıcısı olarak ürün portföyünü genişletmiştir. <b>2025 yılı itibarıyla</b> <b>Stec GNSS, Total Station ve Lidar</b> gibi birçok ürün yelpazesine sahip markanın Türkiye'de tek yetkili satıcısı olmuştur. Ayrıca <b>Senceive, Benewake ve Autel Robotics</b> gibi alanında lider firmalar da ürün gamımıza eklenmiştir. <b>2025 yazında</b> ise sektörümüze <b>taze bir soluk</b> getirerek <b>Geosun</b> markasıyla iş birliğine başlamış, özellikle <b>lidar ve konumsal ölçüm teknolojilerinde</b> gücümüzü pekiştirmiştir.",
+        "<b>GNSS teknolojilerinin hızla geliştiği dönemde</b>, Türkiye'de gerçekleştirilen büyük ölçekli <b>GNSS ihaleleri</b>nin tamamını kazanarak sektördeki gücünü pekiştirmiştir. <b>%100 müşteri memnuniyeti</b> ilkesi doğrultusunda ekibini genişletmiş, yeni şubeler açmış ve <b>TSE belgeli servis hizmetini</b> hayata geçirmiştir. Türkiye <b>GNSS pazarı</b>nda hızla yükselerek ciro açısından en büyük üç firma arasına girmiş, satış adetlerinde ise lider konuma ulaşmayı başarmıştır.",
+        "<b>Konumlama, navigasyon ve haritalama</b> alanlarında; <b>GNSS, INS, Referans İstasyonları, RTK tabletler</b> ve <b>mobil GNSS çözümleri</b> sunmaktayız. Ayrıca <b>Batimetri, İnsansız Deniz Araçları, Total Station ve Robotik Sistemler, Deformasyon Çözümleri, İnsansız Hava Araçları</b> ve yazılım çözümlerine ek olarak <b>Lidar teknolojileri</b> ile kapsamlı çözümler sağlamaktayız.",
+        "<b>Yeni yıl itibarıyla</b> uzmanlık alanlarımızı daha da genişleterek <b>BIM (Yapı Bilgi Modellemesi), Yapı Sağlığı İzleme Sistemleri, Makine Kontrol Sistemleri</b> ve <b>ADAS (Otonom Sürüş) Sensör Çözümleri</b> gibi birçok farklı mühendislik disiplininde faaliyet göstermeye başladık. <b>Yenilikçi ve teknoloji odaklı yaklaşımımızla</b> sektöre öncülük etmeye devam ediyoruz."
+      ]
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "paragraphs": [
+        "<b>Her koşulda yanınızdayız...</b>",
+        "Hedef kitlemiz tarafından en çok tercih edilen, rekabetçi ürünleriyle fark yaratan; kaliteli ve sürdürülebilir hizmet anlayışıyla kalıcılığını sağlayan, temsil ettiği markalarla değer katan ve sektöründe lider bir şirket olmayı hedefliyoruz."
+      ]
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "paragraphs": [
+        "<b><i>Müşterilerimize en yüksek değeri sunmak için varız.</i></b>",
+        "GNSS Teknik olarak; <b>ölçme ve mühendislik, mobil haritalama ve geospatial, deniz ölçmeleri ve inşaat, navigasyon ve altyapı çözümleri</b> alanlarında uzman ekibimizle kapsamlı çözümler sunuyoruz. <b>Satış, satış sonrası ve teknik destek</b> süreçlerinde en yüksek kalite standartlarını hedefleyerek, müşteri memnuniyetini ön planda tutuyoruz."
+      ]
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "paragraphs": [
+        "<b>Vizyonumuzu gerçekleştirmek için</b> tüm çalışmalarımızı <b>tutku, dürüstlük, girişimcilik ve yenilikçilik</b> ilkeleriyle şekillendiriyoruz.",
+        "<b>Başarının Anahtarı:</b> Gelişen teknolojileri yakından takip ediyor, uzman kadromuzla kullanıcılarımıza en yeni ve en etkili çözümleri sunuyoruz.",
+        "<b>Farkındalık:</b> Bireysel gelişimin gücüne inanıyor, kişisel farkındalık ile hem kendimizi hem müşterilerimizi daha ileriye taşıyoruz.",
+        "<b>Yenilikçilik ve Açık Fikirli Yaklaşım:</b> Müşterilerimizin değişen beklentilerine uyum sağlamak için yenilikçi, dinamik ve akılcı çözümler geliştiriyoruz.",
+        "<b>Güven ve Samimiyet:</b> Güvenilirlik ve dürüstlük en kıymetli değerlerimizdir."
+      ]
+    }
+  },
+
+  "rawFragments": {
+    "stecSeLiteFragment": {
+      "note": "Bu parça tam ürün objesi değil; id/name/images başlangıcı eksik. Tam halini atınca products içine düzgün ID ile eklerim.",
+      "fragment": {
+        "category": "gnss",
+        "brand": "stec",
+        "type": "akilli-gnss",
+        "typeTitle": "Akıllı GNSS Alıcıları",
+        "specs": [
+          "1,408 kanal desteği ve 21 frekans ile geniş uydu takibi yapabilir.",
+          "ZENITH algoritması ile yoğun ağaçlık alanlarda ve yüksek binalar arasında bile hızlı sinyal sabitleme sağlar.",
+          "İnsansız hava araçları için İHA sabit modu",
+          "108 mm genişlik ve 82 mm yükseklik ile son derece kompakt bir tasarıma sahiptir.",
+          "8+1 mm RTK hassasiyeti ile yüksek doğrulukta konumlandırma yapabilir.",
+          "S-Link ile 15 km'ye kadar güvenli ve stabil RTK yayını.",
+          "EZtilt ile 60° eğim açısına kadar kalibrasyona gerek olmadan veri toplayabilir.",
+          "Yukarı yönlü akıllı anten tasarımı ile daha geniş kapsama alanı ve uzun menzil sağlar.",
+          "Android uyumlu ve gerçek zamanlı veri toplama kapasitesine sahiptir.",
+          "10.200 mAh batarya ömrü ile 15 saat çalışma süresi sunar.",
+          "IP68 su ve toz geçirmezlik ve 2m'ye kadar darbe dayanıklılığı.",
+          "8 GB dahili hafıza ile GNSS ham verileri saklama imkanı."
+        ],
+        "buyUrl": "https://www.gnssmarketim.com/urun/stec-se-lite-gnss-alicisi-kompakt-tasarimda-ustun-performans",
+        "brochureUrl": "/brosur/stec-se-lite.pdf",
+        "meta": {
+          "title": "STEC SE Lite IMU Kameralı GNSS Alıcısı | Kompakt ve Yüksek Performanslı Akıllı GNSS",
+          "description": "STEC SE Lite, 1,408 kanal ve 21 frekans desteği, yüksek RTK hassasiyeti ve kompakt tasarımı ile fiyat/performans dengesi sunan GNSS alıcısıdır. IP68 dayanıklılığı, 15 saat batarya ömrü ve AR aplikasyon özellikleri ile saha çalışmalarında yüksek verimlilik sağlar.",
+          "keywords": [
+            "STEC SE Lite",
+            "akıllı GNSS alıcısı",
+            "IMU kameralı GNSS",
+            "RTK hassasiyet",
+            "IP68 dayanıklılık",
+            "kompakt GNSS alıcısı",
+            "2W radyo modem",
+            "15 saat batarya ömrü",
+            "AR aplikasyon",
+            "GNSS saha ekipmanları",
+            "S-Link RTK yayını",
+            "EZtilt eğim ölçümü"
+          ]
+        }
+      }
+    }
+  }
+}
