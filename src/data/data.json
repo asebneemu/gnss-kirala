@@ -470,176 +470,8 @@
         ]
       }
     },
-    {
-      "id": 16,
-      "name": "CHCNAV LT60H GNSS RTK Android Tablet",
-      "description": "6.3 İnçlik Telefon Boyutuyla, 8 Saat Çalışma Süresiyle, cm Hassasiyetinde RTK'lı LT60H GNSS Akıllı Android Tablet.",
-      "images": [
-        "/marka-photos/chcnav/lt60h-0.webp",
-        "/marka-photos/chcnav/lt60h-1.webp",
-        "/marka-photos/chcnav/lt60h-2.webp"
-      ],
-      "category": "gnss",
-      "brand": "chcnav",
-      "type": "control-unit-tablet",
-      "typeTitle": "Kontrol Üniteleri ve Tabletler",
-      "specs": [
-        "1408 kanallı GNSS modülü ile GPS, GLONASS, Galileo ve BeiDou desteği.",
-        "2.0 GHz Qualcomm Snapdragon 8 çekirdek işlemci ve DDR3 bellek ile yüksek performans.",
-        "6.3 inç güneş ışığında okunabilir IPS ekran ve Corning Gorilla Glass 3 koruması.",
-        "Android 12 İşletim Sistemli.",
-        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullarda dayanıklılık.",
-        "IP67 standartlarına göre 1.5 metreye kadar düşmelere karşı dayanıklılık.",
-        "8000 mAh lityum-iyon batarya ile 8 saate kadar kesintisiz kullanım.",
-        "Google Mobile Service (GMS) ve Android Enterprise Recommended (AER) sertifikaları.",
-        "64 GB ROM ve 4 GB RAM ile yüksek depolama ve performans.",
-        "Micro SD kart ile 128 GB'a kadar genişletilebilir hafıza.",
-        "NFC, G-Sensör, Işık Sensörü, E-Pusula ve Jiroskop gibi dahili sensörler.",
-        "Type-C USB ve OTG desteği ile hızlı veri aktarımı.",
-        "Dual SIM 4G modem ile kesintisiz internet bağlantısı."
-      ],
-      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-lt60h-gnss-destekli-akilli-telefon-hassas-konumlandirma",
-      "meta": {
-        "title": "CHCNAV LT60H GNSS RTK Android Tablet | Kompakt 6.3 İnç RTK Destekli Saha Tableti",
-        "description": "CHCNAV LT60H, kompakt 6.3 inç IPS ekranı, Qualcomm Snapdragon 8 çekirdek işlemcisi ve 8 saat pil ömrü ile profesyonel RTK GNSS ölçümleri için tasarlanmış dayanıklı Android tablettir. IP67 sertifikalı dayanıklılığı ve yüksek performansı ile zorlu saha koşullarına uygundur.",
-        "keywords": [
-          "CHCNAV LT60H",
-          "GNSS RTK Android tablet",
-          "6.3 inç saha tableti",
-          "kompakt GNSS tablet",
-          "IP67 su toz dayanıklılık",
-          "RTK hassasiyet",
-          "Android 12 işletim sistemi",
-          "Qualcomm Snapdragon işlemci",
-          "4 GB RAM tablet",
-          "64 GB depolama",
-          "Micro SD genişletilebilir hafıza",
-          "darbeye dayanıklı tablet",
-          "uzun pil ömrü",
-          "profesyonel saha cihazı",
-          "Google Mobile Service sertifikalı",
-          "dual SIM 4G modem",
-          "Type-C OTG desteği",
-          "NFC ve G-sensör",
-          "yüksek performanslı saha tableti",
-          "Corning Gorilla Glass koruma",
-          "taşınabilir saha cihazı",
-          "saha veri toplama",
-          "hızlı veri aktarımı",
-          "şantiye GNSS ekipmanları",
-          "kolay kullanım GNSS tablet",
-          "dayanıklı saha donanımı",
-          "şarj edilebilir saha tableti"
-        ]
-      }
-    },
-    {
-      "id": 21,
-      "name": "CHCNAV P5U GNSS Referans CORS İstasyonu",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan P5 GNSS referans alıcısı.",
-      "images": [
-        "/marka-photos/chcnav/p5-0.webp",
-        "/marka-photos/chcnav/p5-1.webp"
-      ],
-      "category": "gnss",
-      "brand": "chcnav",
-      "type": "reference-station",
-      "typeTitle": "Referans İstasyonları",
-      "specs": [
-        "1408 kanal desteği ile GPS, GLONASS, Galileo, BDS ve QZSS uydu sistemlerini aynı anda takip edebilir.",
-        "8 mm + 1 ppm yatay ve 15 mm + 1 ppm dikey RTK hassasiyeti.",
-        "32 GB dahili depolama ve 1 TB'a kadar harici depolama desteği.",
-        "24 saate kadar kesintisiz çalışma süresi sunan dahili lityum-iyon batarya.",
-        "IP67 su ve toz geçirmezlik standardı ile zorlu koşullarda güvenilir kullanım.",
-        "NTRIP client/server ve caster desteği ile gelişmiş ağ uyumluluğu.",
-        "Bluetooth ve Wi-Fi bağlantıları ile kablosuz veri iletimi.",
-        "Ethernet ve USB üzerinden hızlı veri aktarımı ve yapılandırma.",
-        "RINEX ve HCN formatlarında veri kaydı desteği.",
-        "HTTP ve FTP üzerinden uzaktan yapılandırma ve veri indirme.",
-        "GNSS sinyallerinde < 1 mm hassasiyetle taşıyıcı faz ölçümü.",
-        "Kompakt ve dayanıklı tasarımı ile mobil ve sabit baz istasyonu olarak kullanılabilme."
-      ],
-      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-p5u-guclu-ve-entegre-gnss-referans-istasyonu",
-      "meta": {
-        "title": "CHCNAV P5U GNSS Referans CORS İstasyonu | Yüksek Hassasiyetli ve Dayanıklı GNSS Baz İstasyonu",
-        "description": "CHCNAV P5U, 1408 kanal çoklu uydu sistemi takibi ve <1 mm taşıyıcı faz hassasiyetiyle zorlu saha koşullarında üstün performans sunar. IP67 sertifikalı su ve toz geçirmez gövdesi, uzun pil ömrü ve gelişmiş bağlantı seçenekleri ile hem mobil hem sabit referans istasyonu uygulamaları için ideal çözümdür.",
-        "keywords": [
-          "CHCNAV P5U",
-          "GNSS referans istasyonu",
-          "CORS baz istasyonu",
-          "yüksek hassasiyetli GNSS",
-          "çoklu uydu sistemi desteği",
-          "IP67 su toz geçirmez",
-          "taşıyıcı faz ölçümü",
-          "uzun pil ömrü GNSS cihazı",
-          "NTRIP client ve server",
-          "Bluetooth GNSS",
-          "Wi-Fi GNSS bağlantısı",
-          "ethernet veri aktarımı",
-          "mobil ve sabit baz istasyonu",
-          "RINEX veri formatı",
-          "uzaktan yapılandırma",
-          "profesyonel GNSS ekipmanı",
-          "şantiye GNSS çözümü",
-          "yüksek dayanıklılık",
-          "kentsel ve kırsal alan GNSS",
-          "pazar lideri GNSS"
-        ]
-      }
-    },
-    {
-      "id": 26,
-      "name": "CHCNAV P5E-Net Referans CORS İstasyonu",
-      "description": "Yüksek hassasiyet ve dayanıklılık sunan P5E-Net GNSS referans alıcısı.",
-      "images": [
-        "/marka-photos/chcnav/p5e-0.webp",
-        "/marka-photos/chcnav/p5e-1.webp"
-      ],
-      "category": "gnss",
-      "brand": "chcnav",
-      "type": "reference-station",
-      "typeTitle": "Referans İstasyonları",
-      "specs": [
-        "624 kanal desteği ile tüm uydu sistemlerini takip edebilir.",
-        "GPS (L1/L2/L5), GLONASS (L1/L2/L3), Galileo (E1/E5/E6), BDS (B1/B2/B3), SBAS ve L-Band sinyallerini destekler.",
-        "RTK hassasiyeti: Yatayda 8 mm + 1 ppm, Dikeyde 15 mm + 1 ppm.",
-        "Post-processing hassasiyeti: Yatayda 2.5 mm + 0.5 ppm, Dikeyde 5 mm + 0.5 ppm.",
-        "32 GB dahili hafıza ve harici USB depolama desteği.",
-        "Entegre Bluetooth, Wi-Fi ve 4G modem ile kablosuz iletişim.",
-        "IP67 su ve toz geçirmezlik sertifikası ile zorlu koşullarda çalışabilir.",
-        "Dahili batarya ile 20 saate kadar çalışma süresi.",
-        "IMX287 işlemci ve 450 MHz hızında çalışma kapasitesi.",
-        "Renkli LCD ekran ve kullanıcı dostu arayüz ile kolay konfigürasyon.",
-        "FTP push ve çevrimiçi indirme desteği ile veri aktarımı.",
-        "Çalışma sıcaklığı: -40°C ile +65°C arası."
-      ],
-      "buyUrl": "https://www.gnssmarketim.com/urun/chcnav-p5e-net-yuksek-performansli-gnss-referans-istasyonu",
-      "meta": {
-        "title": "CHCNAV P5E-Net Referans CORS İstasyonu | Dayanıklı ve Gelişmiş Bağlantılı GNSS Baz İstasyonu",
-        "description": "CHCNAV P5E-Net, 624 kanal uydu takibi, gelişmiş işlemci ve IP67 sertifikasıyla dayanıklı GNSS referans istasyonu sunar. Bluetooth, Wi-Fi ve 4G modem entegrasyonu ile kesintisiz bağlantı ve uzun pil ömrü sağlayarak profesyonel saha uygulamalarında yüksek güvenilirlik sunar.",
-        "keywords": [
-          "CHCNAV P5E-Net",
-          "GNSS referans istasyonu",
-          "CORS baz istasyonu",
-          "yüksek hassasiyet GNSS",
-          "IP67 sertifikalı GNSS",
-          "Bluetooth bağlantı GNSS",
-          "Wi-Fi GNSS",
-          "4G modem GNSS",
-          "yüksek performans GNSS cihazı",
-          "RTK hassasiyeti",
-          "post-processing GNSS",
-          "RINEX formatı",
-          "uzaktan yönetim GNSS",
-          "şantiye GNSS ekipmanı",
-          "kentsel GNSS uygulamaları",
-          "dayanıklı GNSS istasyonu",
-          "yüksek sıcaklık dayanımı",
-          "gelişmiş GNSS işlemci",
-          "profesyonel GNSS ekipmanı"
-        ]
-      }
-    },
+    
+
     {
       "id": 31,
       "name": "CHCNAV i76 IMU Kameralı CORS-GNSS Alıcısı",
@@ -864,7 +696,7 @@
     },
     {
       "id": 51,
-      "name": "STEC AXIS-4 Total Station Serisi",
+      "name": "STEC AXIS-4L Total Station Serisi",
       "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS-4 Serisi Total Station.",
       "images": [
         "/marka-photos/stec/axis-4.0.webp",
@@ -923,7 +755,7 @@
     },
     {
       "id": 56,
-      "name": "STEC AXIS-9 Android Total Station Serisi",
+      "name": "STEC AXIS-9L Android Total Station Serisi",
       "description": "2\" Açı Hassasiyeti, 1.5-2 Km Reflektörsüz Ölçüm, Otomatik Yükseklik Ölçümü, Android İşletim Sistemli Ve Yüksek Hassasiyet Ve Esneklik Sunan AXIS 9 Serisi Total Station.",
       "images": [
         "/marka-photos/stec/axis-9.0.webp",

@@ -121,13 +121,13 @@ export default function Header() {
   const goBrand = (brandKey) => {
     setOpenBrands(false);
     setOpenCats(false);
-    navigate(`/rent?brand=${encodeURIComponent(brandKey)}`);
+    navigate(`/?brand=${encodeURIComponent(brandKey)}`);
   };
 
   const goCategory = (catKey) => {
     setOpenBrands(false);
     setOpenCats(false);
-    navigate(`/rent?category=${encodeURIComponent(catKey)}`);
+    navigate(`/?category=${encodeURIComponent(catKey)}`);
   };
 
   return (

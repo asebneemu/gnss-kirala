@@ -1,18 +1,8 @@
-import React, { useMemo } from "react";
-import { useData } from "../../context/DataContext";
+import React from "react";
 import ProductCard from "./ProductCard";
 import SectionTitle from "./SectionTitle";
 
-export default function FeaturedProducts() {
-  const { data } = useData();
-
-  const title = data?.home?.featured?.title ?? "Ürünler";
-
-  const items = useMemo(() => {
-    const products = Array.isArray(data?.products) ? data.products : [];
-    return products; // ✅ filtre yok, hepsi
-  }, [data]);
-
+export default function FeaturedProducts({ items = [], title = "Öne Çıkarılanlar" }) {
   return (
     <section className="w-full mt-6">
       <SectionTitle align="center" subtitle={`${items.length} ürün`}>
@@ -26,7 +16,7 @@ export default function FeaturedProducts() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
           {items.map((item, i) => (
-            <ProductCard key={item.id ?? i} item={item} />
+            <ProductCard key={`${item?.id ?? "x"}-${i}`} item={item} />
           ))}
         </div>
       )}
