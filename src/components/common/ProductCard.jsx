@@ -10,9 +10,7 @@ export default function ProductCard({ item }) {
   const brand = (item?.brand ?? "").trim();
 
   const firstImage = item?.images?.[0] ?? "";
-  const imgSrc = firstImage
-    ? publicAsset(firstImage)
-    : publicAsset("/fallback.webp");
+  const imgSrc = firstImage ? publicAsset(firstImage) : publicAsset("/fallback.webp");
 
   const buyUrl = (item?.buyUrl || item?.byUrl || item?.BuyUrl || "").trim();
 
@@ -25,8 +23,15 @@ export default function ProductCard({ item }) {
   const hasBrochure = Boolean(brochureUrl);
 
   const detailTo = id != null ? `/urun/${id}` : "#";
-
   const shortDesc = desc.length > 120 ? `${desc.slice(0, 120).trim()}…` : desc;
+
+  // ✅ WhatsApp (Kirala)
+  const waPhone = "905302827888"; // 0530 282 78 88 -> 90 + numara (0'suz)
+  const waText = `Merhaba, ${name} kiralamak istiyorum!`;
+  const waHref = `https://wa.me/${waPhone}?text=${encodeURIComponent(waText)}`;
+
+  // ✅ Destek (istersen bunu da WhatsApp yaparız; şimdilik arama)
+  const supportHref = "tel:+903122851420";
 
   return (
     <article className="bg-white rounded-2xl border shadow-sm overflow-hidden flex flex-col h-full">
@@ -63,25 +68,26 @@ export default function ProductCard({ item }) {
 
         {/* Butonlar */}
         <div className="mt-auto pt-3 flex flex-col gap-2">
+          {/* 1) KİRALA + SATIN AL (aynı satır) */}
           <div className="flex gap-2">
-            {/* DETAY (sadece bunda buzlu cam + gri arkaplan) */}
-            <Link
-  to={detailTo}
-  className="
-    group relative flex-1 overflow-hidden rounded-xl
-    border-2 border-gray-900
-    bg-white
-    px-4 py-2.5 text-center text-sm sm:text-base font-semibold text-gray-900
-    shadow-sm transition-all duration-300
-    hover:bg-gray-900 hover:text-white hover:-translate-y-0.5
-    active:translate-y-0
-  "
->
-  Detay
-</Link>
+            <a
+              href={waHref}
+              target="_blank"
+              rel="noreferrer"
+              className="
+                flex-1 rounded-xl
+                bg-orange-600 text-white
+                px-4 py-2.5 text-center text-sm sm:text-base font-semibold
+                shadow-[0_14px_34px_rgba(234,88,12,0.35)]
+                transition-all duration-300 ease-out
+                hover:bg-orange-700
+                hover:-translate-y-0.5
+                active:translate-y-0
+              "
+            >
+              Kirala
+            </a>
 
-
-            {/* SATIN AL (kan kırmızısı, gradient yok, cam yok, sadece bunda eğilme) */}
             {buyUrl ? (
               <a
                 href={buyUrl}
@@ -94,9 +100,9 @@ export default function ProductCard({ item }) {
                   shadow-[0_14px_34px_rgba(122,0,0,0.35)]
                   transition-all duration-300 ease-out
                   hover:bg-[#8F0000]
-                  hover:-rotate-1 hover:translate-x-0.5 hover:-translate-y-0.5
+                  hover:-translate-y-0.5
                   hover:shadow-[0_18px_44px_rgba(122,0,0,0.45)]
-                  active:translate-y-0 active:rotate-0
+                  active:translate-y-0
                 "
               >
                 Satın Al
@@ -116,37 +122,67 @@ export default function ProductCard({ item }) {
             )}
           </div>
 
-          {/* BROŞÜR (haki, cam yok, eğilme yok) */}
-          {/* BROŞÜR (siyah buzlu cam, yazı beyaz) */}
-{hasBrochure ? (
-  <a
-    href={brochureUrl}
-    target="_blank"
-    rel="noreferrer"
-    className="
-      group relative w-full overflow-hidden rounded-xl
-      bg-black/90 backdrop-blur-md
-      border border-white/15
-      px-4 py-2.5 text-center text-sm sm:text-base font-semibold text-white
-      shadow-[0_12px_30px_rgba(0,0,0,0.28)]
-      transition-all duration-300 ease-out
-      hover:bg-black/75 hover:-translate-y-0.5
-      active:translate-y-0
-    "
-  >
-    {/* hafif shine */}
-    <span
-      className="
-        pointer-events-none absolute -left-1/2 top-0 h-full w-1/2
-        bg-gradient-to-r from-transparent via-white/25 to-transparent
-        opacity-0 blur-sm transition-all duration-500
-        group-hover:left-[120%] group-hover:opacity-100
-      "
-    />
-    <span className="relative">Broşür</span>
-  </a>
-) : null}
+          {/* 2) DETAY + DESTEK (aynı satır) */}
+          <div className="flex gap-2">
+            <Link
+              to={detailTo}
+              className="
+                flex-1 rounded-xl
+                border-2 border-gray-900 bg-white
+                px-4 py-2.5 text-center text-sm sm:text-base font-semibold text-gray-900
+                shadow-sm transition-all duration-300
+                hover:bg-gray-900 hover:text-white hover:-translate-y-0.5
+                active:translate-y-0
+              "
+            >
+              Detay
+            </Link>
+ {/*
+            <a
+              href={supportHref}
+              className="
+                flex-1 rounded-xl
+                border-2 border-blue-900 bg-white
+                px-4 py-2.5 text-center text-sm sm:text-base font-semibold text-blue-900
+                shadow-sm transition-all duration-300
+                hover:bg-blue-900 hover:text-white hover:-translate-y-0.5
+                active:translate-y-0
+              "
+            >
+              Destek
+            </a>
+              */}
 
+          </div>
+
+          {/* 3) BROŞÜR (tek satır) */}
+          {hasBrochure ? (
+            <a
+              href={brochureUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="
+                group relative w-full overflow-hidden rounded-xl
+                bg-black/90 backdrop-blur-md
+                border border-white/15
+                px-4 py-2.5 text-center text-sm sm:text-base font-semibold text-white
+                shadow-[0_12px_30px_rgba(0,0,0,0.28)]
+                transition-all duration-300 ease-out
+                hover:bg-black/75 hover:-translate-y-0.5
+                active:translate-y-0
+              "
+            >
+              <span
+                className="
+                  pointer-events-none absolute -left-1/2 top-0 h-full w-1/2
+                  bg-gradient-to-r from-transparent via-white/25 to-transparent
+                  opacity-0 blur-sm transition-all duration-500
+                  group-hover:left-[120%] group-hover:opacity-100
+                "
+              />
+              <span className="relative">Broşür</span>
+            </a>
+          ) : null}
         </div>
       </div>
     </article>

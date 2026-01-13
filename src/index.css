@@ -1,3 +1,14 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+.font-yellowtail {
+  font-family: "Yellowtail", cursive;
+  font-weight: 700;
+}
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
