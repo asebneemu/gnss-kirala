@@ -16,7 +16,7 @@ export default function Footer() {
         <img
           src="/asu.png"
           alt="by Aleyna Şebnem Uçak"
-          className="w-[70px] max-sm:w-[55px] h-auto object-contain"
+          className="w-[110px] max-sm:w-[55px] h-auto object-contain"
         />
       </div>
     </footer>

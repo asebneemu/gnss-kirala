@@ -29,8 +29,14 @@
       "title": "Referanslarımız",
       "items": [
         { "name": "Aselsan", "logo": "/ref-icons/aselsan.webp" },
-        { "name": "Çevre ve Şehircilik Bakanlığı", "logo": "/ref-icons/cvsb.webp" },
-        { "name": "Tapu ve Kadastro Genel Müdürlüğü", "logo": "/ref-icons/tvk.png" },
+        {
+          "name": "Çevre ve Şehircilik Bakanlığı",
+          "logo": "/ref-icons/cvsb.webp"
+        },
+        {
+          "name": "Tapu ve Kadastro Genel Müdürlüğü",
+          "logo": "/ref-icons/tvk.png"
+        },
         { "name": "ADM", "logo": "/ref-icons/adm.webp" },
         { "name": "AFAD", "logo": "/ref-icons/afad.webp" },
         { "name": "Afyon Üniversitesi", "logo": "/ref-icons/afyonuni.webp" },
@@ -43,7 +49,10 @@
         { "name": "DSİ", "logo": "/ref-icons/dsi.webp" },
         { "name": "Eltemtek", "logo": "/ref-icons/eltemtek.webp" },
         { "name": "ERÜ", "logo": "/ref-icons/eru.webp" },
-        { "name": "Erbakan Üniversitesi", "logo": "/ref-icons/erbakanuni.webp" },
+        {
+          "name": "Erbakan Üniversitesi",
+          "logo": "/ref-icons/erbakanuni.webp"
+        },
         { "name": "Fırat Elektrik", "logo": "/ref-icons/firatelektrik.webp" },
         { "name": "FNSS", "logo": "/ref-icons/fnss.webp" },
         { "name": "Gebze Üniversitesi", "logo": "/ref-icons/gebzeuni.webp" },
@@ -182,8 +191,16 @@
       "icon": "marka-icons/3DSURVEY.webp",
       "path": "/3dsurvey",
       "bannerphotos": [
-        { "type": "video", "src": "marka-photos/3DSurvey-video-1.webm", "duration": 6 },
-        { "type": "video", "src": "marka-photos/3DSurvey-video-2.webm", "duration": 16 }
+        {
+          "type": "video",
+          "src": "marka-photos/3DSurvey-video-1.webm",
+          "duration": 6
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/3DSurvey-video-2.webm",
+          "duration": 16
+        }
       ],
       "bannerDescription": "Görüntü İşleme ve Haritalama Yazılımı",
       "bannerUrl": "https://www.gnssmarketim.com/marka/3dsurvey",
@@ -194,22 +211,55 @@
       "icon": "marka-icons/chcnav.webp",
       "path": "/chcnav",
       "bannerphotos": [
-        { "type": "video", "src": "marka-photos/chcnav-banner-v1.webm", "duration": 6 },
-        { "type": "video", "src": "marka-photos/chcnav-banner-v2.webm", "duration": 4 },
-        { "type": "video", "src": "marka-photos/chcnav-banner-v3.webm", "duration": 4 },
-        { "type": "video", "src": "marka-photos/chcnav-banner-v4.webm", "duration": 12 }
+        {
+          "type": "video",
+          "src": "marka-photos/chcnav-banner-v1.webm",
+          "duration": 6
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/chcnav-banner-v2.webm",
+          "duration": 4
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/chcnav-banner-v3.webm",
+          "duration": 4
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/chcnav-banner-v4.webm",
+          "duration": 12
+        }
       ],
       "bannerDescription": "Hassas Konumlandırma Çözümleri.",
       "bannerUrl": "https://www.gnssmarketim.com/marka/chcnav",
-      "filter": ["/gnss", "/total-station", "/iha", "/lidar", "/batimetri", "/makine-kontrol", "/aksesuar", "/sensor"]
+      "filter": [
+        "/gnss",
+        "/total-station",
+        "/iha",
+        "/lidar",
+        "/batimetri",
+        "/makine-kontrol",
+        "/aksesuar",
+        "/sensor"
+      ]
     },
     {
       "name": "AUTEL",
       "icon": "marka-icons/autel.webp",
       "path": "/autel",
       "bannerphotos": [
-        { "type": "video", "src": "marka-photos/autel-alpha.webm", "duration": 5 },
-        { "type": "video", "src": "marka-photos/autel-evomax.webm", "duration": 12 }
+        {
+          "type": "video",
+          "src": "marka-photos/autel-alpha.webm",
+          "duration": 5
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/autel-evomax.webm",
+          "duration": 12
+        }
       ],
       "bannerDescription": "Sınırların Ötesinde Çözümler",
       "bannerUrl": "https://www.gnssmarketim.com/marka/autel",
@@ -220,9 +270,21 @@
       "icon": "marka-icons/dji.webp",
       "path": "/dji",
       "bannerphotos": [
-        { "type": "video", "src": "marka-photos/dji-banner-1.webm", "duration": 10 },
-        { "type": "video", "src": "marka-photos/dji-banner-2.webm", "duration": 6 },
-        { "type": "video", "src": "marka-photos/dji-banner-3.webm", "duration": 13 }
+        {
+          "type": "video",
+          "src": "marka-photos/dji-banner-1.webm",
+          "duration": 10
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/dji-banner-2.webm",
+          "duration": 6
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/dji-banner-3.webm",
+          "duration": 13
+        }
       ],
       "bannerDescription": "Profesyonel Hava Aracı Çözümleri",
       "bannerUrl": "https://www.gnssmarketim.com/marka/dji",
@@ -249,7 +311,11 @@
       "path": "/senceive",
       "bannerphotos": [
         { "type": "image", "src": "marka-photos/senceive-banner-1.webp" },
-        { "type": "video", "src": "marka-photos/senceive-banner-v1.webm", "duration": 48 }
+        {
+          "type": "video",
+          "src": "marka-photos/senceive-banner-v1.webm",
+          "duration": 48
+        }
       ],
       "bannerDescription": "Kablosuz Akıllı Sensör Çözümleri",
       "bannerUrl": "https://www.gnssmarketim.com/marka/senceive",
@@ -260,7 +326,11 @@
       "icon": "marka-icons/benewake.webp",
       "path": "/benewake",
       "bannerphotos": [
-        { "type": "video", "src": "marka-photos/benewake-banner-1.webm", "duration": 22 }
+        {
+          "type": "video",
+          "src": "marka-photos/benewake-banner-1.webm",
+          "duration": 22
+        }
       ],
       "bannerDescription": "Lidar Sensör Çözümleri",
       "bannerUrl": "https://www.gnssmarketim.com/marka/benewake",
@@ -271,8 +341,16 @@
       "icon": "marka-icons/GEOSUN.webp",
       "path": "/geosun",
       "bannerphotos": [
-        { "type": "video", "src": "marka-photos/geosun-banner-1.webm", "duration": 11 },
-        { "type": "video", "src": "marka-photos/geosun-banner-2.mp4", "duration": 17 }
+        {
+          "type": "video",
+          "src": "marka-photos/geosun-banner-1.webm",
+          "duration": 11
+        },
+        {
+          "type": "video",
+          "src": "marka-photos/geosun-banner-2.mp4",
+          "duration": 17
+        }
       ],
       "bannerDescription": "Lidar Sensör Çözümleri",
       "bannerUrl": "https://www.gnssmarketim.com/marka/geosun",
@@ -280,7 +358,6 @@
     }
   ],
 
-  
   "products": [
     {
       "id": 1,
@@ -470,8 +547,204 @@
         ]
       }
     },
-    
+    {
+      "id": 16,
+      "name": "CHC LT30 GPS/GIS El Terminali",
+      "description": "Araziye dayanıklı profesyonel GPS/GIS data kontrol ünitesi. Windows Mobile 6.1, 3.7” VGA güneş ışığında okunabilir ekran ve dahili GPRS iletişimiyle saha veri toplama için tasarlandı.",
+      "images": [
+        "/marka-photos/chcnav/lt30-1.jpg",
+        "/marka-photos/chcnav/lt30-0.webp",
 
+        "/marka-photos/chcnav/lt30-2.jpg"
+      ],
+      "category": "gnss",
+      "brand": "chc",
+      "type": "handheld-gis-terminal",
+      "typeTitle": "El Terminalleri (GPS/GIS)",
+      "specs": [
+        "Araziye dayanıklı profesyonel GPS/GIS data kontrol ünitesi.",
+        "Windows Mobile 6.1 işletim sistemi.",
+        "3.7” VGA güneş ışığında okunabilir ekran.",
+        "Yüksek hassasiyetli GPS modülü; 14 kanal GPS L1, C/A kod.",
+        "SBAS (WAAS, MSAS ve EGNOS) desteği.",
+        "Güncelleme hızı: 1 Hz.",
+        "İzleme duyarlılığı: -159 dBm.",
+        "İlk fix süresi: sıcak başlangıç <5 s, soğuk başlangıç <45 s.",
+        "GSM/GPRS (850/900/1800/1900 MHz) ses ve data.",
+        "Bluetooth v2.1 (Sınıf 3) ve 802.11 b/g WLAN.",
+        "Li-ion pil kapasitesi: 3000 mAh; GPS açık + arka aydınlatma ile 10 saatten fazla.",
+        "Boyutlar: 158 x 85 x 25 mm; ağırlık: 340 g (batarya ile).",
+        "IP65 koruma; 1.2 m düşmeye dayanıklılık.",
+        "5.0 MP otomatik odaklı kamera; Mini-USB; opsiyonel RS232 (9 pin) seri bağlantı; NMEA 0183 desteği."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/",
+      "meta": {
+        "title": "CHC LT30 GPS/GIS El Terminali | Dayanıklı Saha Veri Toplama Cihazı",
+        "description": "CHC LT30; Windows Mobile 6.1, 3.7” VGA güneş ışığında okunabilir ekran, dahili GSM/GPRS, Bluetooth ve WLAN bağlantılarıyla arazi koşullarında güvenilir GPS/GIS veri toplama çözümüdür.",
+        "keywords": [
+          "CHC LT30",
+          "GPS GIS el terminali",
+          "saha veri toplama cihazı",
+          "Windows Mobile 6.1",
+          "3.7 VGA ekran",
+          "GSM GPRS",
+          "Bluetooth",
+          "WLAN",
+          "IP65 dayanıklı",
+          "NMEA 0183",
+          "GNSS saha cihazı",
+          "arazi kontrol ünitesi"
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "CHC X91+ GNSS RTK Alıcısı",
+      "description": "220 kanallı çoklu konstelasyon desteği, dahili GSM ve UHF modemleri ve cm seviyesinde RTK doğruluğu ile zorlu mühendislik ve ölçme uygulamaları için tasarlanmış bütünleşik GNSS cihazı.",
+      "images": [
+        "/marka-photos/chcnav/x91plus-4.jpg",
+        "/marka-photos/chcnav/x91plus-0.avif",
+        "/marka-photos/chcnav/x91plus-1.avif"
+      ],
+      "category": "gnss",
+      "brand": "chc",
+      "type": "gnss-rtk-receiver",
+      "typeTitle": "GNSS RTK Alıcıları",
+      "specs": [
+        "220 kanallı, aynı anda izlenebilen çoklu konstelasyon GNSS alıcısı.",
+        "GPS (L1, L2, L5), GLONASS (L1, L2, L3), Galileo, BeiDou ve SBAS desteği.",
+        "RTK modunda yatay 8 mm + 1 ppm, düşey 15 mm + 1 ppm RMS doğruluk.",
+        "Post-process statik ölçümlerde 3 mm + 0.1 ppm yatay doğruluk.",
+        "Dahili 3G GSM modem ve CHC UHF modem (Rx).",
+        "Opsiyonel UHF Rx/Tx (1 W) ve harici Tx (5–28 W) desteği.",
+        "Bluetooth® v2.0 ile kablosuz bağlantı.",
+        "RTCM 2.x / 3.x, CMR, CMR+ ve NMEA 0183 protokol desteği.",
+        "4 GB dahili veri hafızası ve USB harici disk olarak bağlanabilme.",
+        "IP67 koruma sınıfı ile suya ve toza dayanıklı tasarım.",
+        "2 metre beton zemine düşmeye karşı dayanıklılık.",
+        "-40°C ile +65°C arasında çalışma sıcaklığı.",
+        "3400 mAh Li-ion batarya ile RTK modunda 6 saate kadar çalışma.",
+        "1.35 kg ağırlık (batarya dahil) ve kompakt gövde."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/",
+      "meta": {
+        "title": "CHC X91+ GNSS RTK Alıcısı | 220 Kanallı Profesyonel Ölçme Cihazı",
+        "description": "CHC X91+, 220 kanallı çoklu konstelasyon GNSS desteği, dahili GSM ve UHF modemleri ve cm seviyesinde RTK doğruluğu ile profesyonel mühendislik ve arazi ölçümleri için güçlü bir GNSS RTK çözümüdür.",
+        "keywords": [
+          "CHC X91+",
+          "GNSS RTK alıcısı",
+          "220 kanallı GNSS",
+          "RTK ölçüm cihazı",
+          "çoklu konstelasyon GNSS",
+          "dahili GSM modem",
+          "UHF modem GNSS",
+          "IP67 GNSS alıcısı",
+          "haritacılık ölçüm cihazı",
+          "mühendislik GNSS sistemi",
+          "cm hassasiyet GNSS",
+          "Cors RTK alıcısı",
+          "profesyonel GNSS ekipmanı"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "CHCNAV i90 IMU-RTK GNSS Alıcısı",
+      "description": "624 kanallı GNSS teknolojisi ve kalibrasyon gerektirmeyen IMU-RTK yapısı ile, eğimli ölçümlerde dahi yüksek hassasiyet ve maksimum verimlilik sunan profesyonel GNSS alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/i90-0.webp",
+        "/marka-photos/chcnav/i90-1.webp",
+        "/marka-photos/chcnav/i90-2.avif"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "gnss-imu-rtk-receiver",
+      "typeTitle": "IMU-RTK GNSS Alıcıları",
+      "specs": [
+        "624 kanallı CHCNAV iStar GNSS izleme teknolojisi.",
+        "GPS, GLONASS, Galileo, BeiDou, QZSS ve SBAS sinyallerinin tamamını izleme.",
+        "Kalibrasyon gerektirmeyen dahili IMU eğim sensörü.",
+        "30°'ye kadar jalon eğiminde 3 cm hassasiyet ile ölçüm.",
+        "RTK modunda yatay 8 mm + 1 ppm, düşey 15 mm + 1 ppm RMS doğruluk.",
+        "Post-process statik ölçümlerde 2.5 mm + 0.5 ppm RMS doğruluk.",
+        "Dahili 4G modem, Wi-Fi, Bluetooth 4.1, NFC ve UHF radyo modem.",
+        "UHF Rx/Tx (410–470 MHz) ile 3–5 km baz-gezici çalışma mesafesi.",
+        "RTCM 2.x / 3.x, CMR, NMEA 0183, RINEX veri formatı desteği.",
+        "32 GB dahili veri hafızası.",
+        "IP67 koruma sınıfı, 2 m beton zemine düşmeye dayanıklı gövde.",
+        "-40°C ile +65°C çalışma sıcaklığı aralığı.",
+        "Çift Li-ion batarya (2 x 3400 mAh) ile RTK modunda 6–9 saat çalışma.",
+        "1.46'' OLED ekran ve LED durum göstergeleri.",
+        "1.26 kg ağırlık ile kompakt ve dengeli tasarım."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/",
+      "meta": {
+        "title": "CHCNAV i90 IMU-RTK GNSS Alıcısı | Eğimsiz Ölçümde Üst Düzey Hassasiyet",
+        "description": "CHCNAV i90, 624 kanallı GNSS izleme teknolojisi ve IMU-RTK eğim telafisi ile, zorlu arazi koşullarında dahi hızlı, güvenilir ve yüksek hassasiyetli ölçümler sunar.",
+        "keywords": [
+          "CHCNAV i90",
+          "IMU RTK GNSS",
+          "eğim telafili GNSS",
+          "624 kanallı GNSS",
+          "RTK GNSS alıcısı",
+          "haritacılık GNSS cihazı",
+          "mühendislik GNSS sistemi",
+          "IMU destekli RTK",
+          "yüksek hassasiyet GNSS",
+          "CORS uyumlu GNSS",
+          "IP67 GNSS alıcısı",
+          "profesyonel GNSS ekipmanı"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "name": "CHCNAV i50 GNSS RTK Alıcısı",
+      "description": "624 kanallı çoklu uydu desteği, uygun maliyetli yapısı ve sağlam tasarımıyla, ölçme ve mühendislik uygulamaları için hızlı ve güvenilir RTK performansı sunan GNSS alıcısı.",
+      "images": [
+        "/marka-photos/chcnav/i50-0.png",
+        "/marka-photos/chcnav/i50-1.png",
+        "/marka-photos/chcnav/i50-2.jpg"
+      ],
+      "category": "gnss",
+      "brand": "chcnav",
+      "type": "gnss-rtk-receiver",
+      "typeTitle": "GNSS RTK Alıcıları",
+      "specs": [
+        "624 kanallı CHCNAV iStar GNSS izleme teknolojisi.",
+        "GPS, GLONASS, Galileo, BeiDou, QZSS ve SBAS desteği.",
+        "RTK modunda yatay 8 mm + 1 ppm, düşey 15 mm + 1 ppm RMS doğruluk.",
+        "Post-process statik ölçümlerde yatay 3 mm + 0.4 ppm RMS doğruluk.",
+        "Hızlı RTK sabitleme ve 10 Hz'e kadar konumlandırma oranı.",
+        "Dahili 4G modem, Wi-Fi 802.11 b/g/n ve Bluetooth 4.1 bağlantı.",
+        "Dahili Rx/Tx UHF radyo (410–470 MHz) ile 3–5 km çalışma mesafesi.",
+        "Hot-swappable çift Li-ion batarya (2 x 3400 mAh).",
+        "RTK modunda 5–7 saat, statik ölçümlerde 12 saate kadar çalışma süresi.",
+        "8 GB dahili veri hafızası.",
+        "IP67 koruma sınıfı, suya ve toza dayanıklı gövde.",
+        "2 m beton zemine düşmeye dayanıklılık.",
+        "-40°C ile +65°C çalışma sıcaklığı aralığı.",
+        "1.29 kg ağırlık ve kompakt gövde tasarımı."
+      ],
+      "buyUrl": "https://www.gnssmarketim.com/",
+      "meta": {
+        "title": "CHCNAV i50 GNSS RTK Alıcısı | Uygun Maliyetli ve Güvenilir RTK Çözümü",
+        "description": "CHCNAV i50, 624 kanallı GNSS teknolojisi, dahili UHF ve 4G modemleri ile, uygun maliyetli ancak güçlü RTK performansı sunan kompakt bir GNSS alıcısıdır.",
+        "keywords": [
+          "CHCNAV i50",
+          "GNSS RTK alıcısı",
+          "uygun maliyetli GNSS",
+          "624 kanallı GNSS",
+          "RTK ölçüm cihazı",
+          "haritacılık GNSS",
+          "mühendislik GNSS sistemi",
+          "UHF RTK GNSS",
+          "IP67 GNSS alıcısı",
+          "saha ölçüm GNSS cihazı",
+          "profesyonel GNSS ekipmanı"
+        ]
+      }
+    },
     {
       "id": 31,
       "name": "CHCNAV i76 IMU Kameralı CORS-GNSS Alıcısı",
@@ -574,7 +847,7 @@
     },
 
     {
-      "id": 11,
+      "id": 41,
       "name": "STEC SDi Lazerli-Kameralı GNSS Alıcısı",
       "description": "Gelişmiş lazerli aplikasyon, yüksek güçlü 2 W radyo modem, IMU-RTK eğim telafisi, artırılmış gerçeklik (AR) destekli kamera teknolojisi ve ekstrem saha şartlarına karşı üstün dayanıklılığı bir arada sunan STEC SDi GNSS alıcısı, akıllı haritalama çözümlerinde profesyonellerin yeni gözdesidir.",
       "images": [
@@ -921,16 +1194,38 @@
       }
     }
   ],
-  
-  
 
   "socialLinks": [
-    { "name": "Instagram", "icon": "FaInstagram", "url": "https://www.instagram.com/gnssteknik/" },
-    { "name": "LinkedIn", "icon": "FaLinkedin", "url": "https://www.linkedin.com/company/gnss-teknik/" },
-    { "name": "YouTube", "icon": "FaYoutube", "url": "https://www.youtube.com/user/gnssteknik" },
-    { "name": "Facebook", "icon": "FaFacebook", "url": "https://www.facebook.com/Gnssteknik" },
-    { "name": "Twitter", "icon": "FaTwitter", "url": "https://x.com/gnssteknik" },
-    { "name": "WhatsApp", "icon": "FaWhatsapp", "url": "https://wa.me/905302827888" }
+    {
+      "name": "Instagram",
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/gnssteknik/"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/company/gnss-teknik/"
+    },
+    {
+      "name": "YouTube",
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/user/gnssteknik"
+    },
+    {
+      "name": "Facebook",
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/Gnssteknik"
+    },
+    {
+      "name": "Twitter",
+      "icon": "FaTwitter",
+      "url": "https://x.com/gnssteknik"
+    },
+    {
+      "name": "WhatsApp",
+      "icon": "FaWhatsapp",
+      "url": "https://wa.me/905302827888"
+    }
   ],
 
   "footer": {
@@ -946,10 +1241,19 @@
       {
         "title": "ÖNE ÇIKAN ÜRÜNLER",
         "items": [
-          { "label": "STEC SDi Lazerli GNSS", "href": "/gnss/stec/stec-sdi-lazerli-kamerali-gnss-alicisi" },
+          {
+            "label": "STEC SDi Lazerli GNSS",
+            "href": "/gnss/stec/stec-sdi-lazerli-kamerali-gnss-alicisi"
+          },
           { "label": "3D Survey", "href": "/category/yazilim/3dsurvey" },
-          { "label": "Autel EVO II RTK", "href": "/category/iha/autel/autel-evo-ii-rtk-v3" },
-          { "label": "Benewake AD2-S X3", "href": "/category/sensor/benewake-vp/benewake-ad2-s-x3" },
+          {
+            "label": "Autel EVO II RTK",
+            "href": "/category/iha/autel/autel-evo-ii-rtk-v3"
+          },
+          {
+            "label": "Benewake AD2-S X3",
+            "href": "/category/sensor/benewake-vp/benewake-ad2-s-x3"
+          },
           { "label": "Senceive Çözümleri", "href": "/category/sensor/senceive" }
         ]
       },
@@ -957,14 +1261,20 @@
         "title": "KATEGORİLER & MARKET",
         "items": [
           { "label": "Kategoriler", "href": "/category" },
-          { "label": "GNSS Marketim", "href": "https://www.gnssmarketim.com", "external": true },
+          {
+            "label": "GNSS Marketim",
+            "href": "https://www.gnssmarketim.com",
+            "external": true
+          },
           { "label": "Banka Hesap Bilgileri", "href": "/aboutus#bank-accounts" }
         ]
       },
       {
         "title": "GNSS HARİTA TEKNİK DAN. SAN. VE TİC. A.Ş.",
         "items": [
-          { "label": "Balgat Mahallesi 1418. Sokak No:10 Daire:9/11, 06520 Çankaya / ANKARA" },
+          {
+            "label": "Balgat Mahallesi 1418. Sokak No:10 Daire:9/11, 06520 Çankaya / ANKARA"
+          },
           { "label": "Tel: 0 (312) 285 14 20" },
           { "label": "Faks: 0 (312) 285 14 21" },
           { "label": "V.D.: HİTİT" },

@@ -10,8 +10,14 @@ import Container from "../components/common/Container";
 import Header from "../components/home/Header";
 import SideTabs from "../components/common/SideTabs";
 
-const normalize = (v) => String(v || "").trim().toLowerCase();
-const up = (v) => String(v || "").trim().toUpperCase();
+const normalize = (v) =>
+  String(v || "")
+    .trim()
+    .toLowerCase();
+const up = (v) =>
+  String(v || "")
+    .trim()
+    .toUpperCase();
 
 export default function HomePage() {
   const { data } = useData();
@@ -62,16 +68,15 @@ export default function HomePage() {
   return (
     <div className="min-h-screen w-full bg-gray-50">
       <Header />
-<SideTabs />
+      <SideTabs />
       <main className="w-full">
         <Container>
-          <ReferenceSlider referencesData={data?.home?.references} />
           <FeaturedProducts items={filteredProducts} title={title} />
         </Container>
 
         <div className="w-full bg-gray-100">
           <Container>
-            <AccordionMenu sections={data?.accordionSections || []} />
+            <ReferenceSlider referencesData={data?.home?.references} />
           </Container>
         </div>
       </main>

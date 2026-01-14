@@ -4,7 +4,10 @@ import { useData } from "../../context/DataContext";
 
 export default function AccordionMenu() {
   const { data } = useData();
-  const sections = data?.accordionSections || [];
+  const sections =
+    data?.footer?.accordionSections ||
+    data?.accordionSections ||
+    [];
 
   const navigate = useNavigate();
 
@@ -50,6 +53,7 @@ export default function AccordionMenu() {
                         </span>
                       ) : (
                         <button
+                          type="button"
                           onClick={() => handleClick(item)}
                           className="text-left text-gray-600 hover:text-red-600 transition"
                         >

@@ -33,8 +33,10 @@ export default function Header() {
 
   const navbar = data?.home?.navbar;
 
-  const centerText =
-    navbar?.centerText || "İkinci El Satış & Kiralamanın Yeni Adresi";
+const centerText =
+  (navbar?.centerText || "İkinci El Satış & Kiralamanın Yeni Adresi")
+    .toLocaleUpperCase("tr-TR");
+
 
   const brandNavbar =
     navbar?.brandNavbar || data?.brandNavbar || data?.home?.brandNavbar || [];
@@ -179,17 +181,19 @@ const goCategory = (catKey) => {
           {/* 2. SATIR (mobil): Slogan tam ortada */}
           <div className="flex justify-center">
             <div
-              className="
-                font-script font-bold
-                text-lg sm:text-xl
-                tracking-wide
-                text-gray-900
-                text-center
-                leading-tight
-              "
-            >
-              {centerText}
-            </div>
+  className="
+    uppercase
+    text-center
+    font-semibold
+    text-xl sm:text-2xl md:text-3xl
+    tracking-[0.28em]
+    text-gray-900
+    leading-tight
+  "
+>
+  {centerText}
+</div>
+
           </div>
 
           {/* 3. SATIR (mobil): Hamburger menüler */}

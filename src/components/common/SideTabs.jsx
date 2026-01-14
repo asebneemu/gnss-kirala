@@ -1,6 +1,7 @@
 import React from "react";
+import { Globe, ShoppingCart } from "lucide-react";
 
-function Tab({ label, href, bgClass, capClass }) {
+function Tab({ label, href, bgClass, capClass, icon: Icon }) {
   return (
     <a
       href={href}
@@ -20,13 +21,16 @@ function Tab({ label, href, bgClass, capClass }) {
           group-hover:translate-x-0
         "
       >
-        {/* Kenardaki KARE kapak */}
+        {/* Kenardaki KARE kapak + ikon */}
         <div
           className={`
             h-[52px] w-[52px]
+            flex items-center justify-center
             ${capClass}
           `}
-        />
+        >
+          {Icon ? <Icon size={22} className="text-white" /> : null}
+        </div>
 
         {/* Açılan pankart */}
         <div
@@ -36,7 +40,8 @@ function Tab({ label, href, bgClass, capClass }) {
             ${bgClass}
           `}
         >
-          <span className="px-4 text-white font-semibold text-sm whitespace-nowrap">
+          {/* soldan biraz padding veriyoruz */}
+          <span className="pl-6 pr-4 text-white font-semibold text-sm whitespace-nowrap">
             {label}
           </span>
         </div>
@@ -53,12 +58,14 @@ export default function SideTabs() {
         href="https://www.gnssteknik.com.tr"
         capClass="bg-blue-800"
         bgClass="bg-gradient-to-r from-blue-700 to-sky-500"
+        icon={Globe}
       />
       <Tab
         label="Market Sitesi"
         href="https://www.gnssmarketim.com"
         capClass="bg-orange-600"
         bgClass="bg-gradient-to-r from-orange-500 to-amber-400"
+        icon={ShoppingCart}
       />
     </div>
   );
