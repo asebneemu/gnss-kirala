@@ -1,27 +1,39 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useData } from "../context/DataContext";
 
 import ReferenceSlider from "../components/common/ReferenceSlider";
 import FeaturedProducts from "../components/common/FeaturedProducts";
-import AccordionMenu from "../components/common/AccordionMenu";
 import Footer from "../components/common/Footer";
 import Container from "../components/common/Container";
 import Header from "../components/home/Header";
 import SideTabs from "../components/common/SideTabs";
 
-const normalize = (v) =>
-  String(v || "")
-    .trim()
-    .toLowerCase();
-const up = (v) =>
-  String(v || "")
-    .trim()
-    .toUpperCase();
+import confetti from "canvas-confetti";
+
+const normalize = (v) => String(v || "").trim().toLowerCase();
+const upTR = (v) => String(v || "").trim().toLocaleUpperCase("tr-TR");
 
 export default function HomePage() {
   const { data } = useData();
   const { filterKey } = useParams(); // ✅ /stec gibi
+
+  // ✅ Sayfaya girince 1 kere konfeti
+  useEffect(() => {
+    confetti({
+      particleCount: 120,
+      spread: 75,
+      origin: { y: 0.2 },
+    });
+
+    setTimeout(() => {
+      confetti({
+        particleCount: 80,
+        spread: 95,
+        origin: { y: 0.25 },
+      });
+    }, 250);
+  }, []);
 
   const key = normalize(filterKey);
 
@@ -49,9 +61,9 @@ export default function HomePage() {
 
   const activeFilter = key
     ? isBrand
-      ? { type: "brand", key, title: up(key) }
+      ? { type: "brand", key, title: upTR(key) }
       : isCategory
-      ? { type: "category", key, title: up(key) }
+      ? { type: "category", key, title: upTR(key) }
       : null
     : null;
 
@@ -69,6 +81,7 @@ export default function HomePage() {
     <div className="min-h-screen w-full bg-gray-50">
       <Header />
       <SideTabs />
+
       <main className="w-full">
         <Container>
           <FeaturedProducts items={filteredProducts} title={title} />
@@ -79,6 +92,10 @@ export default function HomePage() {
             <ReferenceSlider referencesData={data?.home?.references} />
           </Container>
         </div>
+
+        {/* Eğer AccordionMenu'yu footer üstünde göstermek istersen:
+            <AccordionMenu /> 
+        */}
       </main>
 
       <Footer />

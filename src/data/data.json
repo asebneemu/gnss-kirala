@@ -558,7 +558,7 @@
         "/marka-photos/chcnav/lt30-2.jpg"
       ],
       "category": "gnss",
-      "brand": "chc",
+      "brand": "chcnav",
       "type": "handheld-gis-terminal",
       "typeTitle": "El Terminalleri (GPS/GIS)",
       "specs": [
@@ -607,7 +607,7 @@
         "/marka-photos/chcnav/x91plus-1.avif"
       ],
       "category": "gnss",
-      "brand": "chc",
+      "brand": "chcnav",
       "type": "gnss-rtk-receiver",
       "typeTitle": "GNSS RTK Alıcıları",
       "specs": [
